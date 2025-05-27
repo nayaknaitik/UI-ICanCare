@@ -1,0 +1,84 @@
+{
+  "quizId": "addiction-test-001",
+  "name": "ADDICTION TEST",
+  "title": "Test for Smokers",
+  "isMultiSection": false,
+  "scoreTotal": 10,
+  "sections": [
+    {
+      "name": "sec-1",
+      "title": "Addiction Test",
+      "quesions": [
+        {
+          "question": "How soon after you wake up do you smoke?",
+          "options": [
+            { "value": "Within 5 minutes", "score": "3" },
+            { "value": "6–30 minutes", "score": "2" },
+            { "value": "31–60 minutes", "score": "1" },
+            { "value": "After 60 minutes", "score": "0" }
+          ]
+        },
+        {
+          "question": "Do you find it difficult to refrain from smoking in places where it is prohibited (e.g., temples, hospitals, theaters, workplaces)?",
+          "options": [
+            { "value": "Yes", "score": "1" },
+            { "value": "No", "score": "0" }
+          ]
+        },
+        {
+          "question": "Which cigarette would you hate to give up the most?",
+          "options": [
+            { "value": "The first one in the morning", "score": "1" },
+            { "value": "Any other", "score": "0" }
+          ]
+        },
+        {
+          "question": "How many cigarettes do you smoke per day?",
+          "options": [
+            { "value": "10 or fewer", "score": "0" },
+            { "value": "11–20", "score": "1" },
+            { "value": "21–30", "score": "2" },
+            { "value": "31 or more", "score": "3" }
+          ]
+        },
+        {
+          "question": "Do you smoke more frequently during the first hours after waking than during the rest of the day?",
+          "options": [
+            { "value": "Yes", "score": "1" },
+            { "value": "No", "score": "0" }
+          ]
+        },
+        {
+          "question": "Do you smoke even when you are so sick that you are in bed most of the day?",
+          "options": [
+            { "value": "Yes", "score": "1" },
+            { "value": "No", "score": "0" }
+          ]
+        }
+      ]
+    }
+  ],
+  "resultRules": [
+    {
+      "minScore": 0,
+      "maxScore": 4,
+      "title": "MIld Addiction",
+      "description": "You have a mild nicotine addiction. You may be able to quit with behavioral strategies, self-help tools, and counseling.",
+      "cta": "Join Our Behavioral Counseling Program (Mild Quit Plan)"
+    },
+    {
+      "minScore": 5,
+      "maxScore": 7,
+      "title": "Moderate Addiction",
+      "description": "You are moderately dependent on nicotine. Nicotine replacement therapy (NRT) or prescription medications may help you quit successfully.",
+      "cta": "Join Our 12-Week Quit Program & Get Expert Help! (Severe Quit Plan)"
+    },
+    {
+      "minScore": 8,
+      "maxScore": 10,
+      "title": "Severe Addiction",
+      "description": "Your nicotine addiction is very high, making it extremely difficult to quit without medical assistance. You require intensive treatment, including pharmacotherapy and a structured quit plan.",
+      "cta": "Join Our 12-Week Quit Program & Get Expert Help! (Severe Quit Plan)"
+    }
+  ]
+}

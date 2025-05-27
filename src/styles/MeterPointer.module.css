@@ -1,0 +1,20 @@
+.meterPointer {
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  transform-origin: bottom;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-out;
+  border-radius: 1rem;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 120px solid black;
+}
+
+@media (min-width: 768px) {
+  .meterPointer {
+    border-bottom: 180px solid black;
+  }
+} 

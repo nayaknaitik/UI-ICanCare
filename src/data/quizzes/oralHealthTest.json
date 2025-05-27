@@ -1,0 +1,87 @@
+{
+  "quizId": "oral-health-test-001",
+  "name": "ORAL HEALTH TEST",
+  "title": "Assess Your Oral Health",
+  "isMultiSection": false,
+  "scoreTotal": 25,
+  "instructions": "Answer the following questions based on your oral health symptoms. Score: 1 = Never, 2 = Sometimes, 3 = Frequently, 4 = Often, 5 = Always. Total score at the end of each section will let you know your oral health risks and suggested recommendations immediately.",
+  "sections": [
+    {
+      "name": "oral-health",
+      "title": "Oral Health & Dental Problems",
+      "description": "Tobacco causes gum disease, mouth ulcers, and pre-cancerous oral lesions like Leukoplakia and OSMF.",
+      "questions": [
+        {
+          "question": "Do you frequently have mouth ulcers or sores that take a long time to heal?",
+          "options": [
+            { "value": "Never", "score": 1 },
+            { "value": "Sometimes", "score": 2 },
+            { "value": "Frequently", "score": 3 },
+            { "value": "Often", "score": 4 },
+            { "value": "Always", "score": 5 }
+          ]
+        },
+        {
+          "question": "Do you experience a burning sensation while eating spicy or hot food?",
+          "options": [
+            { "value": "Never", "score": 1 },
+            { "value": "Sometimes", "score": 2 },
+            { "value": "Frequently", "score": 3 },
+            { "value": "Often", "score": 4 },
+            { "value": "Always", "score": 5 }
+          ]
+        },
+        {
+          "question": "Have you noticed white, red, or dark patches inside your mouth?",
+          "options": [
+            { "value": "Never", "score": 1 },
+            { "value": "Sometimes", "score": 2 },
+            { "value": "Frequently", "score": 3 },
+            { "value": "Often", "score": 4 },
+            { "value": "Always", "score": 5 }
+          ]
+        },
+        {
+          "question": "Do you suffer from bleeding gums, bad breath, or loose teeth?",
+          "options": [
+            { "value": "Never", "score": 1 },
+            { "value": "Sometimes", "score": 2 },
+            { "value": "Frequently", "score": 3 },
+            { "value": "Often", "score": 4 },
+            { "value": "Always", "score": 5 }
+          ]
+        },
+        {
+          "question": "Have you had a biopsy or diagnosis of precancerous oral lesions (e.g., Leukoplakia, Erythroplakia, OSMF)?",
+          "options": [
+            { "value": "Yes", "score": 5 },
+            { "value": "No", "score": 0 }
+          ]
+        }
+      ]
+    }
+  ],
+  "resultRules": [
+    {
+      "minScore": 0,
+      "maxScore": 7,
+      "title": "✅ Low Risk",
+      "description": "Your oral health is good, but regular screenings help catch early signs of damage. Call 9773856664 for a free consultation with the Tobacco Cessation Experts",
+      "cta": "Book your free screening at the upcoming camp now"
+    },
+    {
+      "minScore": 8,
+      "maxScore": 15,
+      "title": "⚠️ Moderate Risk",
+      "description": "You may have early-stage tobacco-related oral disease. Get an Oral Screening & Quit Consultation.",
+      "cta": "Join the 12-week quit tobacco program"
+    },
+    {
+      "minScore": 16,
+      "maxScore": 25,
+      "title": "🚨 High Risk",
+      "description": "You have serious oral health issues, including possible pre-cancerous changes. Book your free screening at the upcoming camp now.Get an urgent consultation!",
+      "cta": " Join the 12-week quit tobacco program"
+    }
+  ]
+}

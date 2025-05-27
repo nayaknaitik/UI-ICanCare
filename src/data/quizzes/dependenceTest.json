@@ -1,0 +1,267 @@
+{
+  "quizId": "dependence-test-001",
+  "name": "DEPENDENCE TEST",
+  "title": "Understand Your Tobacco Dependence",
+  "isMultiSection": true,
+  "instructions": "Rate each statement on a scale of 1 to 5, where: 1 = Never, 2 = Sometimes, 3 = Frequently, 4 = Often, 5 = Always. Your highest score determines your primary dependence type and its severity level (Mild, Moderate, or Severe).",
+  "sections": [
+    {
+      "name": "physical",
+      "title": "Physical Dependence (Nicotine Addiction)",
+      "description": "Nicotine dependency causes withdrawal symptoms like cravings, anxiety, and fatigue.",
+      "questions": [
+        {
+          "question": "I use tobacco to keep from slowing down.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "When I run out of tobacco, I find it unbearable.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I use tobacco to perk myself up.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I am very much aware of the times when I am not using tobacco.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I use tobacco to give myself a 'lift.'",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I experience strong cravings if I miss my usual tobacco use.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psychological",
+      "title": "Psychological Dependence (Emotional & Mental Triggers)",
+      "description": "Your tobacco use is driven by emotions like stress, anxiety, or pleasure.",
+      "questions": [
+        {
+          "question": "I use tobacco when I’m upset about something.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I find tobacco use pleasant and relaxing.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I want to use tobacco when I am comfortable and relaxed.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "Part of the enjoyment of tobacco use is watching the smoke I exhale.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I continue using tobacco despite knowing its health risks.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I turn to tobacco when I feel nervous or stressed.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "behavioral",
+      "title": "Behavioral Dependence (Habit & Routine Triggers)",
+      "description": "Your tobacco use is a habit—you smoke or chew automatically in certain situations.",
+      "questions": [
+        {
+          "question": "Handling a cigarette/tobacco pouch is part of my enjoyment.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I light up a cigarette or take tobacco without realizing I still have one in my hand.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I use tobacco automatically without being aware of it.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "Part of the enjoyment of tobacco use comes from the steps I take to light up.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I find it difficult to refrain from using tobacco in places where it is prohibited.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        },
+        {
+          "question": "I tend to use tobacco in social settings even when I don't feel the urge.",
+          "options": [
+            { "value": "Never", "score": "1" },
+            { "value": "Sometimes", "score": "2" },
+            { "value": "Frequently", "score": "3" },
+            { "value": "Often", "score": "4" },
+            { "value": "Always", "score": "5" }
+          ]
+        }
+      ]
+      
+    }
+  ],
+  "resultRules": [
+    {
+      "type": "mild_all",
+      "title": "Mild Dependence",
+      "description": "You have a low level of nicotine dependence, and quitting should be manageable with behavioral support.",
+      "strategy": "👉 Best Quit Strategy:",
+      "cta": [
+        "✔ Simple strategies (journaling, mindfulness, stress-relief techniques).",
+        "✔ Behavioral therapy & quit coaching for motivation and maintenance of the quit state.",
+        "✔ Gradual reduction of tobacco use with alternative coping techniques.",
+        "👉 Enroll in the Mild Quit Program"
+      ]
+    },
+    {
+      "type": "moderate_all",
+      "title": "Moderate Dependence",
+      "description": "You have a moderate addiction, meaning that quitting may cause withdrawal symptoms or emotional distress.",
+      "strategy": "👉 Best Quit Strategy:",
+      "cta": [
+        "✔ Nicotine Replacement Therapy (NRT) – under the supervision of a certified cessation specialist",
+        "✔ Behavioral Therapy & Counseling to rewire habits and manage stress in assistance with the quit coach.",
+        "✔ Structured Quit Plan with gradual tobacco reduction, withdrawals and cravings management, lifestyle management",
+        "✔ Help from quit buddies in the quit journey to provide support",
+        "👉 Enroll in the Moderate Quit Program"
+      ]
+    },
+    {
+      "type": "severe_all",
+      "title": "Severe Dependence",
+      "description": "Your dependence on tobacco is extremely high, and quitting will be very challenging without medical and psychological intervention.",
+      "strategy": "👉 Best Quit Strategy:",
+      "cta": [
+        "✔ Medical Intervention Required from certified tobacco cessation specialist",
+        "✔ Quit Coach Assistance",
+        "✔ Required: Prescription medications",
+        "✔ Supervised Support (Combination of NRT + Therapy as the quit journey progresses).",
+        "✔ Relapse Prevention Plan – Personalized strategy to prevent setbacks.",
+        "✔ Lung-cleaning exercises and self-control exercises",
+        "👉 Enroll in the Severe Quit Program"
+      ]
+    },
+    {
+      "type": "mixed",
+      "title": "Mixed Dependence Levels",
+      "description": "Your dependence on tobacco is high, and quitting will be very challenging without medical and psychological intervention.",
+      "strategy": "👉 Best Quit Strategy:",
+      "cta": [
+        "✔ Medical Intervention from a certified tobacco cessation specialist",
+        "✔ Assistance from quit coach for Withdrawals & cravings management, and triggers management",
+        "✔ Required: Prescription medications",
+        "✔ Supervised Support (Combination of NRT + Therapy as the journey progresses)",
+        "✔ Relapse Prevention Plan – Personalized strategy to prevent setbacks.",
+        "👉 Get Started on Quit Program Now"
+      ]
+    }
+  ]
+}

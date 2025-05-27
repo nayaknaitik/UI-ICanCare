@@ -1,0 +1,84 @@
+/* TobaccoCarousel.css */
+.carousel-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .embla {
+    overflow: hidden;
+  }
+  
+  .embla__container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .embla__slide {
+    flex: 0 0 80%;
+    min-width: 300px;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    color: #006cc8;
+    font-size: 1.5rem;
+    margin: 15px 0 10px 0;
+    font-weight: 700;
+  }
+  
+  .card-description {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #006cc8;
+    color: #006cc8;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+  }
+  
+  .prev-btn {
+    left: -70px;
+  }
+  
+  .next-btn {
+    right: -70px;
+  }
+  
+  .carousel-btn:hover {
+    background-color: #006cc8;
+    color: #fff;
+  }
+  

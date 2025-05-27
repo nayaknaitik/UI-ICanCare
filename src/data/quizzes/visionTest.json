@@ -1,0 +1,78 @@
+{
+    "quizId": "vision-test-001",
+    "name": "VISION TEST",
+    "title": "Assess Your Vision Health",
+    "isMultiSection": false,
+    "scoreTotal": 25,
+    "instructions": "Answer the following questions based on your vision health symptoms. Score: 1 = Never, 2 = Sometimes, 3 = Frequently, 4 = Often, 5 = Always. Total score at the end of each section will let you know your vision health risks and suggested recommendations immediately.",
+    "sections": [
+      {
+        "name": "vision-health",
+        "title": "Vision Problems & Eye Health",
+        "description": "Tobacco use increases the risk of cataracts, macular degeneration, and optic nerve damage.",
+        "questions": [
+          {
+            "question": "Do you experience blurry vision or difficulty seeing at night?",
+            "options": [
+              { "value": "Never", "score": 1 },
+              { "value": "Sometimes", "score": 2 },
+              { "value": "Frequently", "score": 3 },
+              { "value": "Often", "score": 4 },
+              { "value": "Always", "score": 5 }
+            ]
+          },
+          {
+            "question": "Have your eyes been more sensitive to light recently?",
+            "options": [
+              { "value": "Never", "score": 1 },
+              { "value": "Sometimes", "score": 2 },
+              { "value": "Frequently", "score": 3 },
+              { "value": "Often", "score": 4 },
+              { "value": "Always", "score": 5 }
+            ]
+          },
+          {
+            "question": "Do you often have dry, red, or itchy eyes?",
+            "options": [
+              { "value": "Never", "score": 1 },
+              { "value": "Sometimes", "score": 2 },
+              { "value": "Frequently", "score": 3 },
+              { "value": "Often", "score": 4 },
+              { "value": "Always", "score": 5 }
+            ]
+          },
+          {
+            "question": "Have you been diagnosed with glaucoma, cataracts, or retinal damage?",
+            "options": [
+              { "value": "Yes", "score": 5 },
+              { "value": "No", "score": 0 }
+            ]
+          }
+        ]
+      }
+    ],
+    "resultRules": [
+      {
+        "minScore": 0,
+        "maxScore": 7,
+        "title": "✅ Low Risk",
+        "description": "No immediate symptoms, but quitting tobacco reduces the risk of eye diseases.",
+        "cta": "Join the Quit Tobacco Program Now"
+      },
+      {
+        "minScore": 8,
+        "maxScore": 18,
+        "title": "⚠️ Moderate Risk",
+        "description": "Some signs of eye problems present. Eye check-up & vitamin supplementation recommended.",
+        "cta": "Join the Quit Tobacco Program Now"
+      },
+      {
+        "minScore": 19,
+        "maxScore": 25,
+        "title": "🚨 High Risk",
+        "description": "Severe vision issues detected. Urgent ophthalmology consultation required.",
+        "cta": "Join the Quit Tobacco Program Now"
+      }
+    ]
+  }
+  

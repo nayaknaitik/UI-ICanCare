@@ -1,0 +1,54 @@
+{
+  "quizId": "four-finger-test-001",
+  "name": "FOUR FINGER TEST",
+  "title": "Check for Early Signs of OSMF",
+  "scoreTotal": 3,
+  "isMultiSection": false,
+  "sections": [
+    {
+      "name": "sec-1",
+      "title": "Four Finger Test",
+      "questions": [
+        {
+          "question": "How many fingers fit vertically inside your mouth?",
+          "options": [
+            { "value": "4 Fingers (Normal)", "score": "0" },
+            { "value": "3 Fingers (Early OSMF)", "score": "1" },
+            { "value": "2 Fingers (Moderate OSMF)", "score": "2" },
+            { "value": "1 Finger or Less (Severe OSMF)", "score": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "resultRules": [
+    {
+      "minScore": 0,
+      "maxScore": 0,
+      "title": "Normal– No Immediate Risk",
+      "description": "💡 Your mouth opening is normal. However, continued use of tobacco products can lead to fibrosis over time.\n👉 Action: Regular oral screening is recommended for early detection.\n📢 Register for Free Oral Screening at the Upcoming Camp Now",
+      "cta": "Register for Free Oral Screening"
+    },
+    {
+      "minScore": 1,
+      "maxScore": 1,
+      "title": " Early OSMF – Mild Restriction Noticed",
+      "description": "💡 Your mouth opening has started to decrease. This is an early sign of OSMF.\n Action:\n✔ Quit tobacco immediately to prevent further progression.\n PBM Therapy can help reduce fibrosis and improve flexibility.\n Oral stretching exercises can help maintain mouth opening.\n Register for Free Screening at the Upcoming Camp Now",
+      "cta": "Register for Free Screening"
+    },
+    {
+      "minScore": 2,
+      "maxScore": 2,
+      "title": " 🚨 Moderate OSMF – Significant Restriction",
+      "description": "🚨 Your mouth opening is restricted, and you may experience burning sensation or stiffness.\n👉 Action:\n✔ Urgent Specialist Consultation is needed to prevent worsening.\n✔ Advanced PBM Therapy & Medical Treatment Required.\n✔ Nutritional & Hydration Support Needed to improve collagen elasticity.\n📢 Register for Free Screening and the specialist consultation at the Upcoming Camp Now",
+      "cta": "Register for Free Screening & Specialist Consultation"
+    },
+    {
+      "minScore": 3,
+      "maxScore": 3,
+      "title": " 🛑 Severe OSMF– High Risk of Cancer",
+      "description": " Your mouth opening is severely restricted. This indicates advanced fibrosis and a high risk of oral cancer!\n Immediate Action Required: \n✔ Urgent medical intervention required (biopsy, spectroscopy, and treatment).\n Spectroscopy Screening (by IIT Delhi) to assess malignant transformation.\n Oral Surgery Consultation for further evaluation.\n Register for Screening & Specialist Consultation at the Upcoming Camp Now",
+      "cta": "Register for Screening & Specialist Consultation"
+    }
+  ]
+}

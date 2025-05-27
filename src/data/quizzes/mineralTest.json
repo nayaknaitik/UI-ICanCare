@@ -1,0 +1,78 @@
+{
+    "quizId": "vitamin-deficiency-test-001",
+    "name": "VITAMIN & MINERAL DEFICIENCY TEST",
+    "title": "Assess Your Vitamin & Mineral Levels",
+    "isMultiSection": false,
+    "scoreTotal": 25,
+    "instructions": "Answer the following questions based on your nutritional health symptoms. Score: 1 = Never, 2 = Sometimes, 3 = Frequently, 4 = Often, 5 = Always. Total score at the end of each section will let you know your nutritional health risks and suggested recommendations immediately.",
+    "sections": [
+      {
+        "name": "vitamin-deficiency",
+        "title": "Vitamin & Mineral Deficiency",
+        "description": "Tobacco use depletes essential vitamins and minerals, leading to weakened immunity and slow recovery.",
+        "questions": [
+          {
+            "question": "Do you often feel fatigued or weak?",
+            "options": [
+              { "value": "Never", "score": 1 },
+              { "value": "Sometimes", "score": 2 },
+              { "value": "Frequently", "score": 3 },
+              { "value": "Often", "score": 4 },
+              { "value": "Always", "score": 5 }
+            ]
+          },
+          {
+            "question": "Have you experienced frequent infections or slow wound healing?",
+            "options": [
+              { "value": "Never", "score": 1 },
+              { "value": "Sometimes", "score": 2 },
+              { "value": "Frequently", "score": 3 },
+              { "value": "Often", "score": 4 },
+              { "value": "Always", "score": 5 }
+            ]
+          },
+          {
+            "question": "Do you have brittle nails, hair loss, or dry skin?",
+            "options": [
+              { "value": "Never", "score": 1 },
+              { "value": "Sometimes", "score": 2 },
+              { "value": "Frequently", "score": 3 },
+              { "value": "Often", "score": 4 },
+              { "value": "Always", "score": 5 }
+            ]
+          },
+          {
+            "question": "Have you been diagnosed with anemia or vitamin deficiencies?",
+            "options": [
+              { "value": "Yes", "score": 5 },
+              { "value": "No", "score": 0 }
+            ]
+          }
+        ]
+      }
+    ],
+    "resultRules": [
+      {
+        "minScore": 0,
+        "maxScore": 7,
+        "title": "✅ Low Risk",
+        "description": "Your nutrition levels appear normal, but quitting tobacco helps maintain balance.",
+        "cta": "Join the Quit Tobacco Program Now"
+      },
+      {
+        "minScore": 8,
+        "maxScore": 15,
+        "title": "⚠️ Moderate Risk",
+        "description": "Some deficiency symptoms detected. Get a blood test & improve diet.",
+        "cta": "Join the Quit Tobacco Program Now"
+      },
+      {
+        "minScore": 16,
+        "maxScore": 25,
+        "title": "🚨 High Risk",
+        "description": "Severe deficiency noted. Medical & dietary intervention required!",
+        "cta": "Join the Quit Tobacco Program Now"
+      }
+    ]
+  }
+  

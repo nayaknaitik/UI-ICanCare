@@ -1,0 +1,96 @@
+{
+  "quizId": "readiness-test-001",
+  "name": "READINESS TEST",
+  "title": "Assess Your Readiness to Quit",
+  "isMultiSection": false,
+  "scoreTotal": 20,
+  "sections": [
+    {
+      "name": "sec-1",
+      "title": "Readiness Test",
+      "quesions": [
+        {
+          "question": "How long have you been using tobacco?",
+          "options": [
+            { "value": "Less than a year", "score": "4" },
+            { "value": "1-5 years", "score": "3" },
+            { "value": "5-10 years", "score": "2" },
+            { "value": "More than 10 years", "score": "1" }
+          ]
+        },
+        {
+          "question": "How often do you consume tobacco?",
+          "options": [
+            { "value": "Occasionally (Less than once a day)", "score": "3" },
+            { "value": "1-5 times a day", "score": "2" },
+            { "value": "More than 5 times a day", "score": "1" }
+          ]
+        },
+        {
+          "question": "Have you tried quitting before?",
+          "options": [
+            { "value": "Yes, but I relapsed", "score": "1" },
+            { "value": "No, I haven’t tried", "score": "3" }
+          ]
+        },
+        {
+          "question": "Why do you want to quit tobacco?",
+          "options": [
+            { "value": "For my health", "score": "3" },
+            { "value": "For my family & loved ones", "score": "3" },
+            { "value": "To save money", "score": "2" },
+            { "value": "Because I was advised by a doctor", "score": "3" },
+            { "value": "I am not sure yet", "score": "1" }
+          ]
+        },
+        {
+          "question": "Do you feel confident that you can quit tobacco if you have the right support?",
+          "options": [
+            { "value": "Yes, I am confident!", "score": "4" },
+            { "value": "Maybe, I need some help", "score": "2" },
+            { "value": "No, I don’t think I can quit", "score": "1" }
+          ]
+        },
+        {
+          "question": "Do you think tobacco is affecting your health and quality of life?",
+          "options": [
+            { "value": "Yes, I feel the impact", "score": "3" },
+            { "value": "No, I feel fine", "score": "1" },
+            { "value": "I’m not sure", "score": "2" }
+          ]
+        },
+        {
+          "question": "On a scale of 1-10, how motivated are you to quit?",
+          "options": [
+            { "value": "1-3 (Not Ready)", "score": "1" },
+            { "value": "4-6 (Thinking About It)", "score": "2" },
+            { "value": "7-10 (Very Ready)", "score": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "resultRules": [
+    {
+      "minScore": 0,
+      "maxScore": 7,
+      "title": "You’re Not Ready Yet",
+      "description": "You might still be unsure about quitting, and that’s okay! Speak to our Tobacco Cessation Quit Coaches to learn more about the harms of tobacco, how quitting can change your life and get all your doubts cleared about the quit journey. Discuss your apprehensions to quitting and get answers.",
+      "cta": "Take a Free Counseling Session to Explore Your Options! Call 9773856664 Now (option 2)"
+    },
+    {
+      "minScore": 8,
+      "maxScore": 14,
+      "title": "You’re Thinking About Quitting!",
+      "description": "You're considering quitting but need the right motivation and support. Our 12-week program gives you everything you need to make the transition to a tobacco-free regime successfully!",
+      "cta": "Join the Quit Program Now"
+    },
+    {
+      "minScore": 15,
+      "maxScore": 25,
+      "title": "You’re Absolutely Ready to Quit Now!",
+      "description": "Amazing! You are fully prepared to quit tobacco! Let’s take the next step together.",
+      "cta": "Join Our 12-Week Quit Program & Start Today!"
+    }
+  ]
+}

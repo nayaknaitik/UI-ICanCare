@@ -1,0 +1,87 @@
+{
+    "quizId": "hearing-test-001",
+    "name": "HEARING TEST",
+    "title": "Assess Your Hearing Health",
+    "isMultiSection": false,
+    "scoreTotal": 25,
+    "instructions": "Answer the following questions based on your hearing health symptoms. Score: 1 = Never, 2 = Sometimes, 3 = Frequently, 4 = Often, 5 = Always. Total score at the end of each section will let you know your hearing health risks and suggested recommendations immediately.",
+    "sections": [
+      {
+        "name": "hearing-health",
+        "title": "Hearing Loss & Auditory Health",
+        "description": "Smoking reduces oxygen supply to the inner ear, leading to hearing loss over time.",
+        "questions": [
+          {
+            "question": "Do you often ask people to repeat themselves while talking?",
+            "options": [
+              { "value": "Never", "score": 1 },
+              { "value": "Sometimes", "score": 2 },
+              { "value": "Frequently", "score": 3 },
+              { "value": "Often", "score": 4 },
+              { "value": "Always", "score": 5 }
+            ]
+          },
+          {
+            "question": "Do you have constant ringing in your ears (tinnitus)?",
+            "options": [
+              { "value": "Never", "score": 1 },
+              { "value": "Sometimes", "score": 2 },
+              { "value": "Frequently", "score": 3 },
+              { "value": "Often", "score": 4 },
+              { "value": "Always", "score": 5 }
+            ]
+          },
+          {
+            "question": "Do you struggle to hear in noisy environments?",
+            "options": [
+              { "value": "Never", "score": 1 },
+              { "value": "Sometimes", "score": 2 },
+              { "value": "Frequently", "score": 3 },
+              { "value": "Often", "score": 4 },
+              { "value": "Always", "score": 5 }
+            ]
+          },
+          {
+            "question": "Have you experienced sudden or gradual hearing loss?",
+            "options": [
+              { "value": "Never", "score": 1 },
+              { "value": "Sometimes", "score": 2 },
+              { "value": "Frequently", "score": 3 },
+              { "value": "Often", "score": 4 },
+              { "value": "Always", "score": 5 }
+            ]
+          },
+          {
+            "question": "Have you been diagnosed with hearing impairment?",
+            "options": [
+              { "value": "Yes", "score": 5 },
+              { "value": "No", "score": 0 }
+            ]
+          }
+        ]
+      }
+    ],
+    "resultRules": [
+      {
+        "minScore": 0,
+        "maxScore": 7,
+        "title": "✅ Low Risk",
+        "description": "No noticeable hearing loss, but quitting tobacco protects long-term auditory health.",
+        "cta": "Join the Quit Tobacco Program Now"
+      },
+      {
+        "minScore": 8,
+        "maxScore": 15,
+        "title": "⚠️ Moderate Risk",
+        "description": "Early signs of hearing loss are present. Hearing assessment is recommended.",
+        "cta": "Join the Quit Tobacco Program Now"
+      },
+      {
+        "minScore": 16,
+        "maxScore": 25,
+        "title": "🚨 High Risk",
+        "description": "Hearing loss is significant. Get an ENT consultation & hearing test immediately.",
+        "cta": "Join the Quit Tobacco Program Now"
+      }
+    ]
+  }
