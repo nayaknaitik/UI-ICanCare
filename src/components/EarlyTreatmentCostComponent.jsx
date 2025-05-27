@@ -2,7 +2,7 @@ import React from 'react';
 
 const EarlyTreatmentCostComponent = () => {
   return (
-    <div className="max-w-5xl mx-auto font-[poppins] p-2 md:p-8 rounded-3xl mt-12 md:mt-12 text-center">
+    <div className="max-w-5xl mx-auto font-[poppins] p-2 md:p-8 rounded-3xl mt-6 md:mt-12 text-center">
       {/* Headings */}
       <h2 className="text-[14px] md:text-4xl font-bold tracking-tighter">
         <span className="text-[#2987D7]">Why</span> Should You Treat Early And Not Wait?

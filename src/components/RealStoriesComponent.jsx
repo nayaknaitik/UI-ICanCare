@@ -10,16 +10,16 @@ const RealStoriesComponent = () => {
                 <div
                     className="flex-1 mb-8 px-8 md:mb-0 md:mr-12"
                 >
-                    <h2 className="text-4xl font-bold text-[#2987D7] mb-8 tracking-tighter">
+                    <h2 className="text-[14px] font-bold text-[#2987D7] mb-8 text-center md:text-left tracking-tighter">
                         Real Stories and Real Transformations.
                     </h2>
-                    <p className="text-gray-500 text-lg mb-6">
+                    <p className="text-gray-500 text-[10px] md:text-left text-center mb-6">
                         A smoker for <strong>30 years</strong>, developed Pre-Cancerous Lesions at 54.
                         Dr. Pawan explains how <strong>PBM Therapy</strong>, and a structured <strong>Smoking Cessation Program</strong>, can help reverse early damage and restore oral health.
                     </p>
                     <div className="flex gap-4">
-                        <a href="oral-treatment"><button className="bg-[#2987D7] text-white px-6 py-3 rounded-lg font-semibold">Learn About PBM</button></a>
-                        <a href=""><button className="border-2 border-[#2987D7] text-[#2987D7] px-6 py-3 rounded-lg font-semibold">Talk to an Expert</button></a>
+                        <a href="oral-treatment"><button className="bg-[#2987D7] text-white md:px-6 md:py-3 px-3 py-3 rounded-lg md:text-base text-[14px] font-semibold">Learn About PBM</button></a>
+                        <a href=""><button className="border-2 border-[#2987D7] text-[#2987D7] md:px-6 md:py-3 px-3 py-3 rounded-lg md:text-base text-[14px] font-semibold">Talk to an Expert</button></a>
                     </div>
                 </div>
                 <div

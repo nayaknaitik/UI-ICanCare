@@ -97,7 +97,7 @@ const OralDiseasePage = () => (
     <CaseStudyPatient2Component />
     <RealStoriesComponent />
     <OralDiseaseSuccessSection />
-    <WhatsAppButton />
+    {/* <WhatsAppButton /> */}
   </>
 );
 

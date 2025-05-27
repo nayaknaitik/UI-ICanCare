@@ -32,7 +32,7 @@ const Pcompare = () => {
   ];
 
   return (
-    <div className="max-w-5xl md:w-full mx-auto font-[poppins] px-2 md:py-8 md:p-8 rounded-3xl py-16 md:mt-12">
+    <div className="max-w-5xl md:w-full mx-auto font-[poppins] px-2 md:py-8 md:p-8 rounded-3xl py-6 md:mt-12">
       {/* Heading */}
       <div className="text-center mb-4 md:mb-9">
         <h2 className="text-[14px] md:text-2xl lg:text-3xl font-bold tracking-tighter">

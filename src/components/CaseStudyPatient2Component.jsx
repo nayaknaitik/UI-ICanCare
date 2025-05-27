@@ -28,7 +28,7 @@ const CaseStudyPatient2Component = () => {
   return (
     <div
       ref={ref}
-      className="w-full  px-6 py-12 font-[poppins] text-center mt-20"
+      className="w-full  px-6 py-12 font-[poppins] text-center md:mt-20"
     >
       <h2 className="text-2xl md:text-3xl font-bold mb-3">
         Patient 2:{" "}

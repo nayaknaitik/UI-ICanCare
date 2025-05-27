@@ -34,8 +34,8 @@ const plans = [
     price: "12000",
     duration: "12 weeks",
     features: [
-      { name: "2 Cessation Specialist Consultations", available: true },
-      { name: "4-6 Follow-ups", available: true },
+      { name: "6 Cessation Specialist Consultations", available: true },
+      { name: "12-16 Follow-ups", available: true },
       { name: "Support Group for Engagement", available: true },
       { name: "Personalized Quit Coach", available: true },
       { name: "Withdrawals & Cravings Management", available: true },
@@ -52,8 +52,8 @@ const plans = [
     price: "10000",
     duration: "8 weeks",
     features: [
-      { name: "2 Cessation Specialist Consultations", available: true },
-      { name: "4-6 Follow-ups", available: true },
+      { name: "4 Cessation Specialist Consultations", available: true },
+      { name: "8-12 Follow-ups", available: true },
       { name: "Support Group for Engagement", available: true },
       { name: "Personalized Quit Coach", available: true },
       { name: "Withdrawals & Cravings Management", available: true },

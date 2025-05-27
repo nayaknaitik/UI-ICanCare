@@ -7,10 +7,10 @@ const RealStory = () => {
     <div
       className="bg-white py-16 flex flex-col items-center relative font-[poppins] mt-8"
     >
-      <h2 className="text-xl md:text-3xl font-bold text-black text-center w-full tracking-tighter">
+      <h2 className="text-[14px] md:text-3xl font-bold text-black text-center w-full tracking-tighter">
         Why Continued Tobacco Use Worsens Oral Conditions?
       </h2>
-      <p className="text-[#2897D7]/60 text-[12px] md:text-lg text-center mb-6 leading-tight mt-4 tracking-tight">
+      <p className="text-[#2897D7]/60 text-[8px] md:text-lg text-center mb-6 leading-tight mt-4 tracking-tight">
         Even after treatment, continued tobacco use significantly increases the <br /> chances of recurrence, disease progression, and malignant transformation.
       </p>
       <div

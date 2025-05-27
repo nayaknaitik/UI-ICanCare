@@ -7,10 +7,10 @@ const Overlapping = () => {
       className="font-[poppins] relative max-w-7xl mx-auto bg-white rounded-3xl md:-mt-20 shadow-lg p-8 z-10 flex"
     >
       <div className="max-w-2xl text-left">
-        <h2 className="md:text-4xl text-2xl font-bold text-black md:mb-4 mt-2 tracking-tighter">
+        <h2 className="md:text-4xl text-[18px] font-bold text-black md:mb-4 mt-2 tracking-tighter">
           Are You at Risk?
         </h2>
-        <p className="md:text-xl text-[10px] font-medium text-gray-500 md:mb-6">
+        <p className="md:text-xl text-[9px] md:mr-0 mr-2 font-medium text-gray-500 md:mb-6">
           Take This 60-Seconds Quiz to Check if you have any early signs of oral diseases caused by tobacco.
         </p>
       </div>

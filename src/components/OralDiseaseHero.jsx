@@ -14,21 +14,21 @@ const OralDiseaseHero = () => {
     >
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         {/* Left Section */}
-        <div className="flex-1 text-center md:text-left md:ml-10 md:max-w-[800px]">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-8 md:leading-[4.5rem] tracking-tight text-[#2987D7]">
+        <div className="flex-1 text-center md:text-left md:ml-8 md:min-w-[500px]">
+          <h1 className="text-[40px] md:text-6xl font-bold leading-8 md:leading-16  tracking-tight text-[#2987D7]">
             Tobacco Induced{" "}
-            <span className="text-[#65BA34]">Oral Diseases</span> – <br />
-            <span className="text-lg sm:text-xl md:text-3xl block text-[#2987D7]">
+            <span className="text-[#65BA34]">Oral Diseases</span> 
+            <span className="text-[16px] sm:text-xl md:text-3xl block text-[#2987D7]">
               Understand the Damage & Choose to Heal
             </span>
           </h1>
 
-          <p className="mt-4 sm:mt-6 text-sm sm:text-base md:text-xl text-gray-700 opacity-80 tracking-tight px-2 sm:px-0">
+          <p className="mt-2 sm:mt-6 text-[10px] sm:text-base md:text-xl text-gray-700 opacity-80 tracking-tight px-2 sm:px-0">
             Your mouth is the first battleground where tobacco wreaks havoc and induces diseases.{" "}
             <strong>Don’t ignore</strong> the signs — check symptoms, get screened, and quit tobacco before it’s too late!
           </p>
 
-          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="mt-6 sm:mt-8 flex flex-row sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="appoinment"
               className="bg-[#2987D7] text-white text-lg sm:text-xl px-6 py-3 rounded-md font-medium hover:bg-[#005fa3] transition hover:scale-[105%] text-center"
@@ -50,7 +50,7 @@ const OralDiseaseHero = () => {
           <img
             src={heroImage}
             alt="Hero"
-            className="w-[90%] max-w-[320px] sm:max-w-[380px] md:max-w-xl object-cover"
+            className="w-[90%] max-w-[310px] sm:max-w-[380px] md:max-w-xl object-cover"
           />
         </div>
       </div>

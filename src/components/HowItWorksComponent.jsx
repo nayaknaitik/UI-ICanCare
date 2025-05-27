@@ -1,5 +1,5 @@
 import React from 'react';
-import pbmImage from '../assets/family.svg';
+import pbmImage from '../assets/howIt.svg';
 
 const HowItWorksComponent = () => {
   const steps = [

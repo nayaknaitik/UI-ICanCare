@@ -23,7 +23,7 @@ const WhyOralScreeningMatters = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center gap-8 py-12 px-6 bg-white mx-auto font-[poppins] mt-12">
+    <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:py-12 px-6 bg-white mx-auto font-[poppins] mt-12">
       {/* Image Section */}
       <img
         src={photo}
