@@ -76,7 +76,7 @@ const HomePage = () => (
     <VideoFeedbackSection />
     <CallToAction />
     <FAQSection />
-    <BlogSection />
+    {/* <BlogSection /> */}
     <SuccessRateSection />
     <WhatsAppButton />
   </>
