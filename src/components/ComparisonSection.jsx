@@ -46,7 +46,7 @@ const ComparisonSection = () => {
             <span className="text-[#2987D7]">Why</span> Choose Us Over Free
             Quitlines?
           </h2>
-          <p className="text-gray-600 mt-1 tracking-tighter text-[7px] md:text-base">
+          <p className="text-gray-600 mt-1 tracking-tighter text-[8px] md:text-base">
             "Free quitlines don't work for most people. Our structured program
             gives you real results."
           </p>

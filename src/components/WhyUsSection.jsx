@@ -57,8 +57,8 @@ const WhyUsSection = () => {
             key={index}
             className="flex bg-white rounded-md shadow-sm overflow-hidden"
           >
-            <div className="bg-[#A2DAFF] flex items-center justify-center py-2 px-4 w-20">
-              <img src={item.icon} alt="" className={`${item.icon === Sci ? 'h-7' : 'h-10'}`}
+            <div className="bg-[#A2DAFF] flex items-center justify-center py-3 px-3 w-20">
+              <img src={item.icon} alt="" className={`${index === 3 || 2 ? 'h-8' : 'h-8'}`}
  />
             </div>
             <div className="flex flex-col justify-center px-4 py-0 text-left">
