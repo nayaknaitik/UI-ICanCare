@@ -51,14 +51,15 @@ const WhyUsSection = () => {
 
         {/* ✅ Mobile View */}
         {isMobile ? (
-          <div className="grid grid-cols-2 gap-2 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 gap-2 max-w-4xl mx-auto px-2">
         {features.map((item, index) => (
           <div
             key={index}
             className="flex bg-white rounded-md shadow-sm overflow-hidden"
           >
             <div className="bg-[#A2DAFF] flex items-center justify-center py-2 px-4 w-20">
-              <img src={item.icon} alt="" className="h-10" />
+              <img src={item.icon} alt="" className={`${item.icon === Sci ? 'h-7' : 'h-10'}`}
+ />
             </div>
             <div className="flex flex-col justify-center px-4 py-0 text-left">
               <h3 className="text-[11px] font-bold text-black">{item.title}</h3>
