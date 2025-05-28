@@ -37,7 +37,7 @@ const AdminDashboard = () => {
       let response;
       switch (activeTab) {
         case "transactions":
-          response = await axios.get(`${API_BASE_URL}/api/payment/transactions`);
+          response = await axios.get(`${API_BASE_URL}/payment/transactions`);
           setTransactions(response.data);
           break;
 

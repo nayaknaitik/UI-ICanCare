@@ -25,7 +25,7 @@ const CallToAction = () => {
           className="bg-[#2987D7] hover:scale-[105%] transition ease-in-out duration-300 cursor-pointer text-white font-bold md:py-4 md:px-8 px-3 py-4 rounded-lg flex items-center gap-3 shadow-lg text-lg no-underline"
         >
           <img src={CallIcon} className="w-7 h-7" alt="Call" />
-          <span className="text-[28px] md:text-2xl">
+          <span className="text-[24px] md:text-2xl">
             9773856664{" "}
             <span className="text-sm font-light">(Select Option 2)</span>
           </span>

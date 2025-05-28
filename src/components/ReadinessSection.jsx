@@ -76,7 +76,7 @@ const ReadinessSection = () => {
   return (
     <div
       viewport={{ once: true, amount: 0.2 }}
-      className="px-2 py-5 md:px-16 md:py-12 bg-white text-center max-w-6xl mx-auto md:mt-8 font-[poppins]"
+      className="px-10 py-5 md:px-16 md:py-12 bg-white text-center max-w-6xl mx-auto md:mt-8 font-[poppins]"
     >
       {/* Heading */}
       <div>
@@ -90,12 +90,12 @@ const ReadinessSection = () => {
       </h2>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-3 gap-1 md:gap-12 mt-4 md:mt-12 relative z-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-12 mt-4 md:mt-12 relative z-10">
         {quizCards.map((card, index) => (
           <div
             key={index}
             onClick={() => handleCardClick(card.id)}
-            className="relative rounded-lg md:rounded-xl overflow-hidden shadow-md md:shadow-xl bg-white flex flex-col hover:scale-[1.03] transition-transform cursor-pointer h-43 md:h-110"
+            className="relative rounded-lg md:rounded-xl overflow-hidden shadow-md md:shadow-xl bg-white flex flex-col hover:scale-[1.03] transition-transform cursor-pointer h-50 md:h-110"
           >
             <img
               src={card.image}
@@ -103,8 +103,8 @@ const ReadinessSection = () => {
               className="w-full h-32 md:h-80 object-cover"
             />
             <div className="p-2 md:p-4 text-left">
-              <h3 className="text-[8px] md:text-lg font-bold text-black line-clamp-1">{card.title}</h3>
-              <p className="text-[5px] md:text-sm text-gray-600 mt-0.5 md:mt-1 pr-4 md:pr-14 ">{card.desc}</p>
+              <h3 className="text-[14px] md:text-lg font-bold text-black line-clamp-1">{card.title}</h3>
+              <p className="text-[8px] md:text-sm text-gray-600  md:mt-1 pr-4 md:pr-14 ">{card.desc}</p>
             </div>
 
             {/* Arrow Button */}

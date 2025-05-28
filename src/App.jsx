@@ -61,6 +61,7 @@ import PBMSuccessRateSection from "./components/PBMSuccessRateSection.jsx";
 import OralDiseaseSuccessSection from "./components/OralDiseaseSuccessSection.jsx";
 import PaymentPage from "./components/PaymentPage.jsx";
 import PaymentSuccess from "./components/PaymentSuccess.jsx";
+import { useState } from "react";
 
 const HomePage = () => (
   <>
@@ -82,6 +83,7 @@ const HomePage = () => (
 );
 
 const OralDiseasePage = () => (
+  
   <>
     <OralDiseaseHero />
     <Overlapping />
@@ -139,6 +141,7 @@ function App() {
   const { scrollYProgress } = useScroll({
     offset: ["start start", "end end"]
   });
+  
 
   return (
     <>

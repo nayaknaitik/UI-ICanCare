@@ -39,6 +39,7 @@ const ContactUsComponent = () => {
         `${API_BASE_URL}/api/contact`,
         formData
       );
+      console.log(response.data);
       setStatus("Message sent successfully!");
       setFormData({
         name: "",

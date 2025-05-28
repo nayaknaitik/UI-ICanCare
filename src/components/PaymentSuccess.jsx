@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const PaymentSuccess = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [txnid, setTxnid] = useState(null);
   const [amount, setAmount] = useState(null);
   const [status, setStatus] = useState(null);

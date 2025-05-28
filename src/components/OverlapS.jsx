@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const OverlapS = () => {
   return (
     <div
-      className="font-[poppins] relative max-w-7xl mx-auto bg-[#2987D7] md:rounded-3xl rounded-xl -mt-16 md:-mt-67 shadow-lg md:p-8 z-10 flex"
+      className="hidden font-[poppins] relative max-w-7xl mx-auto bg-[#2987D7] md:rounded-3xl rounded-xl -mt-16 md:-mt-67 shadow-lg md:p-8 z-10 md:flex"
     >
       <div className="max-w-2xl text-left">
         <h2 className="text-xl md:text-4xl font-bold mt-5 text-black md:mt-10 ml-12 tracking-tighter">

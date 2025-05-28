@@ -4,17 +4,21 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useLocation, useNavigate } from "react-router-dom";
 
-const API_BASE_URL =
-  import.meta.env.VITE_API_URL || "http://localhost:3000/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
 
 const PaymentPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const[amount , setAmount] = useState(location.state?.amount);
+
+  const [originalAmount, setOriginalAmount] = useState(1000);
+  const [amount, setFinalAmount] = useState(location.state?.amount || 1000);
+  const [discount, setDiscount] = useState(0);
+  const [coupon, setCoupon] = useState("");
+
   const [formData, setFormData] = useState({
     key: "",
     txnid: "",
-    amount:  "1",
+    amount: amount.toString(),
     productinfo: location.state?.planTitle || "QuitLine Consultation",
     firstname: "",
     lastname: "",
@@ -41,17 +45,60 @@ const PaymentPage = () => {
       navigate("/");
       return;
     }
+
     const generateTxnId = () => {
       const timestamp = Date.now();
       const random = Math.floor(Math.random() * 1000000);
       return `TXN_${timestamp}_${random}`;
     };
-    setFormData((prev) => ({ ...prev, txnid: generateTxnId() }));
+
+    const actualAmount = location.state.amount;
+    setOriginalAmount(actualAmount);
+    setFinalAmount(actualAmount);
+    setFormData((prev) => ({
+      ...prev,
+      txnid: generateTxnId(),
+      amount: actualAmount.toString(),
+    }));
   }, [location.state, navigate]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const applyCoupon = async () => {
+    try {
+      const res = await fetch(`${API_BASE_URL}/payment/validate-coupon`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ coupon }),
+      });
+      const data = await res.json();
+
+      if (data.valid) {
+        const discountValue = data.discountAmount;
+        const newAmount = originalAmount - discountValue;
+
+        setDiscount(discountValue);
+        setFinalAmount(newAmount);
+        setFormData((prev) => ({
+          ...prev,
+          amount: newAmount.toString(),
+        }));
+      } else {
+        alert("Invalid coupon code");
+        setDiscount(0);
+        setFinalAmount(originalAmount);
+        setFormData((prev) => ({
+          ...prev,
+          amount: originalAmount.toString(),
+        }));
+      }
+    } catch (err) {
+      console.error("Error applying coupon:", err);
+      alert("Something went wrong while applying the coupon.");
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -64,7 +111,7 @@ const PaymentPage = () => {
         `${API_BASE_URL}/payment/initiate`,
         formData
       );
-      console.log(data);
+
       const form = document.createElement("form");
       form.method = "POST";
       form.action = data.action;
@@ -107,7 +154,12 @@ const PaymentPage = () => {
                   </div>
                   <div className="pb-4 border-b border-white/20">
                     <p className="text-sm opacity-80">Amount</p>
-                    <p className="text-3xl font-bold">₹{formData.amount}</p>
+                    <p className="text-3xl font-bold">₹{amount}</p>
+                    {discount > 0 && (
+                      <p className="text-sm mt-1 opacity-80 line-through">
+                        ₹{originalAmount}
+                      </p>
+                    )}
                   </div>
                 </div>
                 <div className="mt-8">
@@ -274,6 +326,7 @@ const PaymentPage = () => {
                       placeholder="Area, landmark, etc. (optional)"
                     />
                   </div>
+
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
                       Coupon Code
@@ -281,15 +334,15 @@ const PaymentPage = () => {
                     <div className="flex gap-4">
                       <input
                         type="text"
-                        name="coupon"
-                        value={formData.coupon || ""}
-                        onChange={handleInputChange}
+                        id="coupon"
+                        value={coupon}
+                        onChange={(e) => setCoupon(e.target.value)}
+                        placeholder="Enter code"
                         className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                        placeholder="Enter coupon code"
                       />
                       <button
                         type="button"
-                        onClick={() => alert("Apply coupon logic here")} // Replace this with real logic
+                        onClick={applyCoupon}
                         className="px-4 py-2 bg-[#2A8CE0] text-white rounded-lg hover:bg-[#2477c0] transition"
                       >
                         Apply
