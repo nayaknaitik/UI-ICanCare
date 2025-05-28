@@ -53,7 +53,7 @@ const RealStory = () => {
             </a>
 
             <a
-              href="appoinment"
+              href="appointment"
               className="border border-black text-xs md:text-xl px-3 py-3 md:px-6 md:py-3 rounded-md text-black font-medium hover:bg-gray-100 transition hover:scale-[105%] cursor-pointer inline-block text-center"
             >
              Get Treated
