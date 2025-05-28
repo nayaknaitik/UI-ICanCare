@@ -57,12 +57,12 @@ const WhyUsSection = () => {
             key={index}
             className="flex bg-white rounded-md shadow-sm overflow-hidden"
           >
-            <div className="bg-[#A2DAFF] flex items-center justify-center p-6 w-20">
-              <img src={item.icon} alt="" className="" />
+            <div className="bg-[#A2DAFF] flex items-center justify-center py-2 px-4 w-20">
+              <img src={item.icon} alt="" className="h-10" />
             </div>
             <div className="flex flex-col justify-center px-4 py-0 text-left">
-              <h3 className="text-[9px] font-bold text-black">{item.title}</h3>
-              <p className="text-[6px] text-gray-600">{item.desc}</p>
+              <h3 className="text-[11px] font-bold text-black">{item.title}</h3>
+              <p className="text-[7px] text-gray-600">{item.desc}</p>
             </div>
           </div>
         ))}
@@ -79,7 +79,7 @@ const WhyUsSection = () => {
                   className="flex flex-col rounded-xl md:rounded-3xl overflow-hidden bg-white shadow-lg h-full transition-transform transform"
                 >
                   {/* Top Half - Icon on light blue */}
-                  <div className="bg-[#A2DAFF] w-full flex items-center justify-center h-16 md:h-56">
+                  <div className="bg-[#A2DAFF] w-full flex items-center justify-center h-15 md:h-56">
                     <img
                       className="h-8 md:h-24"
                       src={item.icon}
