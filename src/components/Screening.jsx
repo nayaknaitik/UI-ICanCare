@@ -37,7 +37,7 @@ const Screening = () => {
       {/* Buttons */}
       <div className="flex mt-1 gap-3 w-full">
         <a
-          href="appoinment"
+          href="appointment"
           className="flex-1 bg-[#2987D7] text-white text-[13px] py-3 rounded-md font-semibold hover:bg-[#005fa3] transition text-center"
         >
           Book Screening
