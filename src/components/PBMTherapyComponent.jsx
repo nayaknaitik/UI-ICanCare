@@ -55,7 +55,7 @@ const PBMTherapyComponent = () => {
 
             {/* Bottom Half - Title and Text */}
             <div className="bg-white md:p-8 py-1 flex flex-col justify-center items-center">
-              <h3 className="md:text-2xl font-semibold text-black md:mb-2 mb-1 text-[10px]">{item.title}</h3>
+              <h3 className="md:text-2xl font-semibold text-black md:mb-2 mb-1 leading-3 md:leading-7 text-[10px]">{item.title}</h3>
               <p className="md:text-sm text-gray-600 font-extralight text-[7px]">{item.desc}</p>
             </div>
           </div>

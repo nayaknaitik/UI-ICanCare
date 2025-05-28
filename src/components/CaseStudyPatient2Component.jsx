@@ -4,6 +4,8 @@ import img1 from "../assets/sec21.svg";
 import img2 from "../assets/sec22.svg";
 import img3 from "../assets/sec23.svg";
 import ar from "../assets/ar4.svg";
+import ani from '../assets/animation2.svg';
+import { useState } from "react";
 
 const CaseStudyPatient2Component = () => {
   const ref = useRef(null);
@@ -24,9 +26,26 @@ const CaseStudyPatient2Component = () => {
       transition: { delay: i * 0.6, duration: 0.8 },
     }),
   };
+const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    }
+  }, [inView, controls]);
   return (
-    <div
+isMobile?(
+  <div className="mt-10">
+    <img src={ani} alt="" />
+
+  </div>
+):
+    (<div
       ref={ref}
       className="w-full  px-6 py-12 font-[poppins] text-center md:mt-20"
     >
@@ -128,7 +147,7 @@ const CaseStudyPatient2Component = () => {
         Leukoplakia gone in{" "}
         <span className="text-black !font-bold tracking-tighter">45 Days!</span>
       </p>
-    </div>
+    </div>)
   );
 };
 

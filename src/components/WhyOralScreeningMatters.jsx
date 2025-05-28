@@ -28,30 +28,30 @@ const WhyOralScreeningMatters = () => {
       <img
         src={photo}
         alt="Oral Screening"
-        className="w-full md:w-1/3 rounded-lg items-center mt-16 "
+        className="w-70 md:w-1/3 rounded-lg items-center mt-16 "
       />
 
       {/* Steps Section */}
       <div className="flex flex-col items-start md:items-start md:w-1/2">
-        <h2 className="md:text-4xl text-2xl font-bold mb-16 text-black">
-         <span className="text-[#2987D7]"> Why </span>Oral Screening Matters?
+        <h2 className="md:text-4xl text-[14px] md:text-left font-bold mb-8 md:mb-16 text-black">
+         <span className="text-[#2987D7] md:ml-0 ml-15"> Why </span>Oral Screening Matters?
         </h2>
-        <div className="space-y-0">
+        <div className="md:space-y-0">
           {steps.map((step, index) => (
-            <div key={index} className="flex items-start gap-4">
+            <div key={index} className="flex items-start gap-2 md:gap-4 h-[13vh] md:h-[18vh]">
               <div className="flex flex-col items-center">
-                <div className="relative flex items-center justify-center w-25 h-25">
-                  <div className="absolute w-full h-full bg-white border border-[#2987D7] rounded-full"></div>
-                  <div className="absolute w-20 h-20 bg-[#9BC7E4] rounded-full"></div>
-                  <div className="flex items-center justify-center w-15 h-15 bg-[#2987D7] text-white font-bold text-3xl rounded-full z-10">
+                <div className="relative flex items-center justify-center h-20 w-20 md:w-25 md:h-25">
+                  <div className="absolute md:w-full md:h-full w-20 h-20 bg-white border border-[#2987D7] rounded-full"></div>
+                  <div className="absolute md:w-20 md:h-20 w-15 h-15 bg-[#9BC7E4] rounded-full"></div>
+                  <div className="flex items-center justify-center md:w-15 md:h-15 w-10 h-10 bg-[#2987D7] text-white font-bold md:text-3xl rounded-full z-10">
                     {step.number}
                   </div>
                 </div>
-                {index < steps.length - 1 && <div className="w-1 bg-[#2987D7] h-20"></div>}
+                {index < steps.length - 1 && <div className="md:w-1 w-0.5 bg-[#2987D7] h-12 md:h-20"></div>}
               </div>
               <div>
-                <h3 className="md:text-2xl text-md font-bold text-[#2987D7] mb-2">{step.title}</h3>
-                <p className="text-gray-600/80 md:text-base text-[13px]">{step.description}</p>
+                <h3 className="md:text-2xl text-[12px] font-bold text-[#2987D7] mb-2">{step.title}</h3>
+                <p className="text-gray-600/80 md:text-base text-[8px]">{step.description}</p>
               </div>
             </div>
           ))}

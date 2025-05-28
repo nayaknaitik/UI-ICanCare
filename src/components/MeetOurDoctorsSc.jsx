@@ -54,7 +54,7 @@ const MeetOurDoctorsSc = () => {
         <div
           className="text-center mb-10"
         >
-          <button className="px-6 py-2 bg-white text-[#1377CC] font-semibold border border-[#76ADFF] rounded-full mb-2 md:mb-4">
+          <button className="px-6 py-2 bg-white md:text-base text-[14px] text-[#1377CC] font-semibold border border-[#76ADFF] rounded-full mb-2 md:mb-4">
             MEET OUR DOCTORS
           </button>
           <h2 className="text-[14px] sm:text-4xl font-bold tracking-tighter">

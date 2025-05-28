@@ -11,7 +11,7 @@ const CampEligibilityComponent = () => {
   ];
 
   return (
-    <div className="w-full max-w-6xl mx-auto md:py-12 font-[poppins] md:mt-12 flex flex-row md:flex-row items-center">
+    <div className="w-full max-w-6xl mx-auto md:py-12 font-[poppins] md:mt-12 flex gap-4 flex-row px-2 md:flex-row items-center">
       {/* Left Image Section */}
       <div className="w-full md:w-1/2 rounded-2xl overflow-hidden">
         <img
@@ -36,7 +36,7 @@ const CampEligibilityComponent = () => {
         </ul>
         <a href="appoinment">
           {" "}
-          <button className="bg-[#2987D7] text-white font-semibold md:px-6 md:py-3 rounded-xl px-3 py-1 text-[10px] md:text-lg">
+          <button className="bg-[#2987D7] text-white font-semibold md:px-6 md:py-3 md:w-120 w-45 md:ml-0 ml-2 rounded-md md:rounded-xl px-2 py-1 text-[10px] md:text-lg">
             Register for the Free Oral Screening Camp
           </button>
         </a>

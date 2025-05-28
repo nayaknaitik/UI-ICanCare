@@ -5,12 +5,20 @@ import ar2 from '../assets/ar2.svg';
 import ar1 from '../assets/ar1.svg';
 import ar3 from '../assets/ar3.svg';
 import img from '../assets/imgsto.svg';
+import { useState } from 'react';
+import comp from '../assets/animation1.svg'
 
 const CaseStudyAnimatedComponent = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: false });
   const controls = useAnimation();
+const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   useEffect(() => {
     if (inView) {
       controls.start('visible');
@@ -33,7 +41,12 @@ const CaseStudyAnimatedComponent = () => {
   const dateTexts = ["July 2021", "Aug 2021", "Sep 2021", "Oct 2021", "Nov 2021"];
 
   return (
-    <div ref={ref} className="hidden md:block w-full mx-auto py-16 px-4 font-[poppins] bg-[#EAF4FE]">
+    isMobile?(
+      <div className='px-10 mt-12'>
+        <img src={comp} alt="" />
+      </div>
+    ):
+    (<div ref={ref} className="hidden md:block w-full mx-auto py-16 px-4 font-[poppins] bg-[#EAF4FE]">
       <h2 className="text-3xl font-bold text-center mb-4">Case Studies</h2>
       <h3 className="text-4xl text-[#2987D7] font-semibold text-center mb-20 tracking-tighter">Patient 1: ICanCaRe Tobacco Intervention Programme</h3>
 
@@ -106,7 +119,7 @@ const CaseStudyAnimatedComponent = () => {
           variants={fadeVariant}
         />
       </div>
-    </div>
+    </div>)
   );
 };
 

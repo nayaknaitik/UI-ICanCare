@@ -25,7 +25,7 @@ const OralCancerPreventionComponent = () => {
 
       {/* Heading */}
       <div className="relative z-10 px-3 py-3  md:px-6 md:py-6 text-center max-w-7xl top-0">
-        <h2 className="text-[10px] md:text-3xl sm:text-4xl font-extrabold text-[#2987D7] leading-tighter tracking-tighter">
+        <h2 className="text-[12px] md:text-3xl sm:text-4xl font-extrabold text-[#2987D7] leading-tighter tracking-tighter">
           <span className="text-black"> <span className="text-[#2987D7] text-[19px] md:text-5xl" >90%</span> of Oral Cancers are <span className="text-[#2987D7]">Prevented</span> with Early Detection!</span>
         </h2>
       </div>

@@ -3,19 +3,20 @@ import React from "react";
 const VideoFeedbackSection = () => {
   const videos = [
     {
-      title: "Amazing Transformation",
-      url: "https://www.youtube.com/embed/VIDEO_ID_1",
-      description: "How our program changed lives.",
+      title: "Mr. ZUSTIN",
+      url: "https://www.youtube.com/embed/wtkb5isj4Pw"
+,
+      description: "FROM 40 to Zero in 15 days. ICanCaRe Tobacco Cessation Program at MAX Vaishali",
     },
     {
-      title: "Success Story",
-      url: "https://www.youtube.com/embed/VIDEO_ID_2",
-      description: "Hear directly from our successful clients.",
+      title: "Mr. Naveen Goel",
+      url: "https://www.youtube.com/embed/16ovqMZ__d8",
+      description: "Mr. Naveen Goel - Tobacco Smoking Quit Champion - ICanCaRe Tobacco Wellness Program",
     },
     {
-      title: "Why Choose Us",
-      url: "https://www.youtube.com/embed/VIDEO_ID_3",
-      description: "What makes our program unique and effective.",
+      title: "Mr. Rajesh Choudhary",
+      url: "https://www.youtube.com/embed/6p_6DQENnL4",
+      description: "Tobacco Chewing Quit Champion - ICanCaRe Tobacco Wellness Program",
     },
   ];
 
@@ -34,7 +35,7 @@ const VideoFeedbackSection = () => {
                   src={video.url}
                   title={video.title}
                   className="absolute top-0 left-0 w-full h-full rounded-xl"
-                  frameBorder="0"
+                  
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
