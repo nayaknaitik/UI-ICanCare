@@ -65,21 +65,21 @@
     {
       "minScore": 0,
       "maxScore": 7,
-      "title": "✅ Low Risk",
+      "title": "Low Risk",
       "description": "Your oral health is good, but regular screenings help catch early signs of damage. Call 9773856664 for a free consultation with the Tobacco Cessation Experts",
       "cta": "Book your free screening at the upcoming camp now"
     },
     {
       "minScore": 8,
       "maxScore": 15,
-      "title": "⚠️ Moderate Risk",
+      "title": "Moderate Risk",
       "description": "You may have early-stage tobacco-related oral disease. Get an Oral Screening & Quit Consultation.",
       "cta": "Join the 12-week quit tobacco program"
     },
     {
       "minScore": 16,
       "maxScore": 25,
-      "title": "🚨 High Risk",
+      "title": "High Risk",
       "description": "You have serious oral health issues, including possible pre-cancerous changes. Book your free screening at the upcoming camp now.Get an urgent consultation!",
       "cta": " Join the 12-week quit tobacco program"
     }

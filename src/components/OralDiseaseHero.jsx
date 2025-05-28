@@ -43,7 +43,7 @@ const OralDiseaseHero = () => {
           Take This <strong>60-Seconds Quiz</strong> to Check if you have any early signs of oral diseases caused by tobacco.
         </p></div>
         <a
-          href="#quiz"
+          href="/"
           className="w-full bg-[#2987D7] text-white text-[14px] mt-6 h-12 py-3 rounded-lg font-semibold text-center hover:bg-[#005fa3] transition"
         >
           Check Now !

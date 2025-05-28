@@ -65,21 +65,21 @@
       {
         "minScore": 0,
         "maxScore": 7,
-        "title": "✅ Low Risk",
+        "title": "Low Risk",
         "description": "No noticeable hearing loss, but quitting tobacco protects long-term auditory health.",
         "cta": "Join the Quit Tobacco Program Now"
       },
       {
         "minScore": 8,
         "maxScore": 15,
-        "title": "⚠️ Moderate Risk",
+        "title": "Moderate Risk",
         "description": "Early signs of hearing loss are present. Hearing assessment is recommended.",
         "cta": "Join the Quit Tobacco Program Now"
       },
       {
         "minScore": 16,
         "maxScore": 25,
-        "title": "🚨 High Risk",
+        "title": "High Risk",
         "description": "Hearing loss is significant. Get an ENT consultation & hearing test immediately.",
         "cta": "Join the Quit Tobacco Program Now"
       }

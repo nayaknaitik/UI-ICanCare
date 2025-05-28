@@ -65,7 +65,7 @@ const Screening = () => {
           </p>
           <div className="md:ml-0 ml-4 mt-8 flex gap-2 md:gap-4">
             <a
-              href="appoinment"
+              href="appointment"
               className="bg-[#2987D7] text-xl text-white md:px-8 md:py-3 px-4 py-2 rounded-md font-medium hover:bg-[#005fa3] transition hover:scale-[105%]"
             >
               Book Screening

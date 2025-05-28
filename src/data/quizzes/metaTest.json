@@ -62,21 +62,21 @@
       {
         "minScore": 0,
         "maxScore": 7,
-        "title": "✅ Low Risk",
+        "title": "Low Risk",
         "description": "You don’t show clear signs of metabolic disorders, but quitting tobacco helps prevent future problems.",
         "cta": "Join the Quit Tobacco Program Now"
       },
       {
         "minScore": 8,
         "maxScore": 15,
-        "title": "⚠️ Moderate Risk",
+        "title": "Moderate Risk",
         "description": "You may have metabolic imbalances. Consult a specialist & check your blood sugar levels.",
         "cta": "Join the Quit Tobacco Program Now"
       },
       {
         "minScore": 16,
         "maxScore": 25,
-        "title": "🚨 High Risk",
+        "title": "High Risk",
         "description": "You are at serious risk for diabetes complications. Seek medical help immediately!",
         "cta": "Join the Quit Tobacco Program Now"
       }

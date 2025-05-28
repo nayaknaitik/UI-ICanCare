@@ -1,7 +1,9 @@
 import React from "react";
 import img1 from "../assets/dis1.png";
 import img2 from "../assets/dis2.png";
+import { useNavigate } from "react-router-dom";
 const RealHealingComponent = () => {
+  const navigate = useNavigate();
   return (
     <div className="w-full bg-white py-8 md:py-12 px-6 font-[poppins] md:mt-12">
       <h2 className="text-center md:text-4xl text-[14px] text-[#000000] font-medium">Success Stories</h2>
@@ -67,7 +69,7 @@ const RealHealingComponent = () => {
 
       {/* CTA */}
       <div className="flex justify-center mt-4 md:mt-10">
-        <button className="bg-[#2987D7] text-white font-semibold px-2 py-2 md:px-6 md:py-3 rounded-md text-[10px] md:text-xl shadow-md hover:bg-[#2471b2] transition">
+        <button onClick={()=>{navigate('/appointment')}} className="bg-[#2987D7] text-white font-semibold px-2 py-2 md:px-6 md:py-3 rounded-md text-[10px] md:text-xl shadow-md hover:bg-[#2471b2] transition">
           Get Treated Now!
         </button>
       </div>

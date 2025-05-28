@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Logo from "../assets/icancareLogo.svg";
 
-import { Menu, X } from "lucide-react"; 
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -57,7 +57,11 @@ const Navbar = () => {
 
   const linkVariants = {
     hidden: { opacity: 0, y: 0 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: "easeOut" } },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.4, ease: "easeOut" },
+    },
   };
 
   const menuVariants = {
@@ -85,7 +89,6 @@ const Navbar = () => {
       }`}
     >
       <div className="w-full max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between transition-all duration-300">
-        
         {/* Logo */}
         <div className="flex justify-left gap-2">
           <a href="/" target="_blank" rel="noopener noreferrer">
@@ -112,7 +115,7 @@ const Navbar = () => {
             { href: "oral-treatment", text: "Oral Treatment" },
             { href: "screening-camp", text: "Screening Camp" },
             { href: "contact", text: "Contact Us" },
-            {href:"appoinment" , text:"Book Appointment"},
+            { href: "appoinment", text: "Book Appointment" },
           ].map((link, index) => (
             <motion.a
               key={index}
@@ -136,13 +139,20 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Icon */}
-        <div className="md:hidden flex items-center ml-auto">
+        {/* Mobile Menu Icon + CTA */}
+        <div className="md:hidden flex items-center ml-auto gap-2">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="text-gray-800 focus:outline-none"
           >
             {isMenuOpen ? <X size={32} /> : <Menu size={32} />}
           </button>
+          <a
+            href="/"
+            className="bg-[#1C94FB] hover:bg-blue-700 text-white px-3 py-1.5 rounded-md font-semibold text-sm transition ease-in-out duration-300"
+          >
+            Quit Now !
+          </a>
         </div>
       </div>
 
@@ -163,7 +173,7 @@ const Navbar = () => {
                 { href: "oral-treatment", text: "Oral Treatment" },
                 { href: "screening-camp", text: "Screening Camp" },
                 { href: "contact", text: "Contact Us" },
-                 {href:"appoinment" , text:"Book Appointment"},
+                { href: "appoinment", text: "Book Appointment" },
               ].map((link, index) => (
                 <a
                   key={index}
@@ -188,7 +198,6 @@ const Navbar = () => {
           </motion.div>
         )}
       </AnimatePresence>
-
     </header>
   );
 };

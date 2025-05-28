@@ -173,7 +173,7 @@ function App() {
             <Route path="/oral-treatment" element={<OralTreatmentPage />} />
             <Route path="/screening-camp" element={<ScreeningCampPage />} />
             <Route path="/contact" element={<ContactUsComponent />} />
-            <Route path="/appoinment" element={<AppointmentComponent />} />
+            <Route path="/appointment" element={<AppointmentComponent />} />
             <Route path="/payments" element={<PaymentPage/>} />
             <Route path="/payment-success" element={<PaymentSuccess/>} />
 

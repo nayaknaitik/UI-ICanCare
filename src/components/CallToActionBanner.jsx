@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const CallToActionBanner = () => {
   return (
     <div
-      className="w-full bg-[#DAF0FF] py-8 px-4 flex flex-col md:flex-row items-center font-[poppins] mt-24"
+      className="hidden  w-full bg-[#DAF0FF] py-8 px-4 md:flex flex-col md:flex-row items-center font-[poppins] mt-12 md:mt-24"
     >
       <div className="w-full max-w-7xl mx-auto flex flex-row md:flex-row items-center justify-between gap-3 md:gap-8">
         {/* Text Section */}

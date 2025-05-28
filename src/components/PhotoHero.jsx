@@ -36,13 +36,13 @@ const PhotoHero = () => {
       {/* Buttons */}
       <div className="flex flex-row gap-3 w-full justify-center">
         <a
-          href="appoinment"
+          href="appointment"
           className="bg-[#2987D7] text-white text-[13px] py-3 px-9 rounded-md font-semibold hover:bg-[#005fa3] transition text-center"
         >
           Speak To An Expert
         </a>
         <a
-          href="#"
+          href="#pbm"
           className="border border-black text-[13px] py-3 px-9 rounded-md font-semibold hover:bg-gray-100 transition text-center"
         >
           Know More

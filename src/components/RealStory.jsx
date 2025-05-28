@@ -5,7 +5,7 @@ import mouth from "../assets/mouth.svg";
 const RealStory = () => {
   return (
     <div
-      className="bg-white md:py-16 flex flex-col items-center relative font-[poppins] mt-8"
+      className="bg-white md:py-16 px-3 flex flex-col items-center relative font-[poppins] mt-8"
     >
       <h2 className="text-[14px] md:text-3xl font-bold text-black text-center w-full tracking-tighter">
         Why Continued Tobacco Use Worsens Oral Conditions?

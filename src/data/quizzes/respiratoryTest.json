@@ -65,21 +65,21 @@
       {
         "minScore": 0,
         "maxScore": 7,
-        "title": "✅ Low Risk",
+        "title": "Low Risk",
         "description": "Your lungs are still in good condition. Quit tobacco now to prevent long-term damage.",
         "cta": "Call 9773856664 for a free consultation with the Tobacco Cessation Experts"
       },
       {
         "minScore": 8,
         "maxScore": 15,
-        "title": "⚠️ Moderate Risk",
+        "title": "Moderate Risk",
         "description": "You have early signs of lung irritation. It will be better to quit smoking to prevent further damage.",
         "cta": "Join the Quit Tobacco Program"
       },
       {
         "minScore": 16,
         "maxScore": 25,
-        "title": "🚨 High Risk",
+        "title": "High Risk",
         "description": "You may have a lung disease like COPD. Pulmonary evaluation is recommended & to quit smoking immediately.",
         "cta": "Join the 12-Week Quit Tobacco Program"
       }

@@ -3,7 +3,7 @@
     "name": "VITAMIN & MINERAL DEFICIENCY TEST",
     "title": "Assess Your Vitamin & Mineral Levels",
     "isMultiSection": false,
-    "scoreTotal": 25,
+    "scoreTotal": 20,
     "instructions": "Answer the following questions based on your nutritional health symptoms. Score: 1 = Never, 2 = Sometimes, 3 = Frequently, 4 = Often, 5 = Always. Total score at the end of each section will let you know your nutritional health risks and suggested recommendations immediately.",
     "sections": [
       {
@@ -55,21 +55,21 @@
       {
         "minScore": 0,
         "maxScore": 7,
-        "title": "✅ Low Risk",
+        "title": "Low Risk",
         "description": "Your nutrition levels appear normal, but quitting tobacco helps maintain balance.",
         "cta": "Join the Quit Tobacco Program Now"
       },
       {
         "minScore": 8,
         "maxScore": 15,
-        "title": "⚠️ Moderate Risk",
+        "title": "Moderate Risk",
         "description": "Some deficiency symptoms detected. Get a blood test & improve diet.",
         "cta": "Join the Quit Tobacco Program Now"
       },
       {
         "minScore": 16,
-        "maxScore": 25,
-        "title": "🚨 High Risk",
+        "maxScore": 20,
+        "title": "High Risk",
         "description": "Severe deficiency noted. Medical & dietary intervention required!",
         "cta": "Join the Quit Tobacco Program Now"
       }

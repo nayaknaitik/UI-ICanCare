@@ -11,10 +11,15 @@ import Fa from "../assets/conFa.svg";
 import Li from "../assets/conLi.svg";
 import GoogleMapsComponent from "./MapComponent";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
 
 const AppointmentComponent = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on mount
+  }, []);
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -103,7 +108,7 @@ const AppointmentComponent = () => {
         style={{
           backgroundImage: `url(${backgroundImage})`,
           width: isMobile ? "100%" : "100%",
-          height: isMobile ? "50vh" : "70vh",
+          height: isMobile ? "60vh" : "70vh",
           backgroundSize: isMobile ? "contain" : "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

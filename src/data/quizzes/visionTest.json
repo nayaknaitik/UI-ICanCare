@@ -3,7 +3,7 @@
     "name": "VISION TEST",
     "title": "Assess Your Vision Health",
     "isMultiSection": false,
-    "scoreTotal": 25,
+    "scoreTotal": 20,
     "instructions": "Answer the following questions based on your vision health symptoms. Score: 1 = Never, 2 = Sometimes, 3 = Frequently, 4 = Often, 5 = Always. Total score at the end of each section will let you know your vision health risks and suggested recommendations immediately.",
     "sections": [
       {
@@ -55,21 +55,21 @@
       {
         "minScore": 0,
         "maxScore": 7,
-        "title": "✅ Low Risk",
+        "title": "Low Risk",
         "description": "No immediate symptoms, but quitting tobacco reduces the risk of eye diseases.",
         "cta": "Join the Quit Tobacco Program Now"
       },
       {
         "minScore": 8,
-        "maxScore": 18,
-        "title": "⚠️ Moderate Risk",
+        "maxScore": 14,
+        "title": "Moderate Risk",
         "description": "Some signs of eye problems present. Eye check-up & vitamin supplementation recommended.",
         "cta": "Join the Quit Tobacco Program Now"
       },
       {
-        "minScore": 19,
-        "maxScore": 25,
-        "title": "🚨 High Risk",
+        "minScore": 15,
+        "maxScore": 20,
+        "title": "High Risk",
         "description": "Severe vision issues detected. Urgent ophthalmology consultation required.",
         "cta": "Join the Quit Tobacco Program Now"
       }

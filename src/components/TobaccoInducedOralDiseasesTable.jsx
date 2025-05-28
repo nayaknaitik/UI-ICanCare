@@ -159,7 +159,7 @@ const TobaccoInducedOralDiseasesTable = () => {
   ];
 
   return (
-    <div className="p-8 bg-white rounded-lg font-[poppins] mt-24">
+    <div className="hidden md:block p-8 bg-white rounded-lg font-[poppins] mt-24">
       <h1 className=" md:text-4xl font-bold text-center mb-8 text-black">
         Tobacco-Induced Oral Diseases{" "}
         <span className="text-[#2987D7]">By Age-Group</span>

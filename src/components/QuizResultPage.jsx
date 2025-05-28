@@ -10,6 +10,10 @@ import styles from "../styles/MeterPointer.module.css";
 const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
 
 const QuizResultPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on mount
+  }, []);
+
   const [rotation, setRotation] = useState(0);
   const [error, setError] = useState(null);
   const [email, setEmail] = useState("");
@@ -197,11 +201,11 @@ const QuizResultPage = () => {
     }
     console.log(resultType);
     // For all other tests
-    if (resultType === "Mild Dependence" || resultType === "low") {
+    if (resultType === "Mild Dependence" || resultType === "Low" || resultType === "Low Risk" || resultType === "Mild Risk") {
       return -90; // Left side position
-    } else if (resultType === "Moderate Dependence") {
+    } else if (resultType === "Moderate Dependence" || resultType === "Moderate" || resultType === "Moderate Risk" || resultType === "Moderate Risk") {
       return 0; // Center position
-    } else if (resultType === "Severe Dependence" || resultType === "high") {
+    } else if (resultType === "Severe Dependence" || resultType === "High" || resultType === "High Risk" || resultType === "Severe Risk") {
       return 90; // Right side position
     }
 
@@ -214,7 +218,7 @@ const QuizResultPage = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setRotation(rotationAngle);
-    }, 200);
+    }, 2000);
     return () => clearTimeout(timer);
   }, [rotationAngle]);
 
@@ -245,9 +249,9 @@ const QuizResultPage = () => {
                 className="w-full"
               />
               <div
-                className="meter-pointer absolute bottom-3 top-5 md:top-10 left-1/2 origin-bottom transition-transform duration-1000 ease-out rounded-2xl"
+                className="meter-pointer absolute bottom-3 top-10 md:top-10 left-1/2 origin-bottom transition-transform duration-1000 ease-out rounded-2xl"
                 style={{
-                  transform: `translateX(-50%) rotate(${rotation}deg)`,
+                  transform: `translateX(-50%) rotate(${rotationAngle}deg)`,
                   width: 0,
                   height: 0,
                   borderLeft: "6px solid transparent",
@@ -299,13 +303,13 @@ const QuizResultPage = () => {
 
           <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
             <button
-              onClick={() => navigate("/quit-plan")}
+              onClick={() => navigate("/")}
               className="bg-[#2A8CE0] hover:bg-[#0061ad] text-white px-6 py-3 rounded-lg font-semibold shadow transition-colors"
             >
               {resultRule?.cta || "Get Your Personalised Quit Plan"}
             </button>
             <button
-              onClick={() => navigate("/contact")}
+              onClick={() => navigate("/appointment")}
               className="border border-gray-400 text-gray-800 px-6 py-3 rounded-lg font-semibold shadow hover:bg-gray-50 transition-colors"
             >
               Talk to an Expert

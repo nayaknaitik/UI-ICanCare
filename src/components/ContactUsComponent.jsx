@@ -91,7 +91,7 @@ const ContactUsComponent = () => {
         style={{
           backgroundImage: `url(${back})`,
           width: isMobile ? "100%" : "100%",
-          height: isMobile ? "50vh" : "70vh",
+          height: isMobile ? "56vh" : "70vh",
           backgroundSize: isMobile ? "contain" : "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
