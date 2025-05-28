@@ -110,7 +110,7 @@ const FAQPBM = () => {
           })}
         </motion.div>
 
-        <a href="appoinment"><button className="bg-[#2987D7] text-white md:px-8 md:py-4 rounded-md hover:scale-[108%] mt-8 px-3 py-3 md:text-base font-semibold transition ease-in-out duration-200" >GET STARTED WITH PBM THERAPY TODAY</button></a>
+        <a href="appointment"><button className="bg-[#2987D7] text-white md:px-8 md:py-4 rounded-md hover:scale-[108%] mt-8 px-3 py-3 md:text-base font-semibold transition ease-in-out duration-200" >GET STARTED WITH PBM THERAPY TODAY</button></a>
       </div>
     </motion.section>
   );

@@ -19,7 +19,7 @@ const RealStoriesComponent = () => {
                     </p>
                     <div className="flex md:justify-start gap-4">
                         <a href="oral-treatment"><button className="bg-[#2987D7] text-white md:px-6 md:py-3 px-2 py-1 rounded-lg md:text-base text-[14px] font-semibold">Learn About PBM</button></a>
-                        <a href=""><button className="border-2 border-[#2987D7] text-[#2987D7] md:px-6 md:py-2.5 px-2 py-1 rounded-lg md:text-base text-[14px] font-semibold">Talk to an Expert</button></a>
+                        <a href="/appointment"><button className="border-2 border-[#2987D7] text-[#2987D7] md:px-6 md:py-2.5 px-2 py-1 rounded-lg md:text-base text-[14px] font-semibold">Talk to an Expert</button></a>
                     </div>
                 </div>
                 <div

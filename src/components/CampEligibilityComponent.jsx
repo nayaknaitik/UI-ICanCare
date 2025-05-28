@@ -34,7 +34,7 @@ const CampEligibilityComponent = () => {
             </li>
           ))}
         </ul>
-        <a href="appoinment">
+        <a href="appointment">
           {" "}
           <button className="bg-[#2987D7] text-white font-semibold md:px-6 md:py-3 md:w-120 w-45 md:ml-0 ml-2 rounded-md md:rounded-xl px-2 py-1 text-[10px] md:text-lg">
             Register for the Free Oral Screening Camp

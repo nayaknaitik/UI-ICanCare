@@ -115,7 +115,7 @@ const Navbar = () => {
             { href: "oral-treatment", text: "Oral Treatment" },
             { href: "screening-camp", text: "Screening Camp" },
             { href: "contact", text: "Contact Us" },
-            { href: "appoinment", text: "Book Appointment" },
+            { href: "appointment", text: "Book Appointment" },
           ].map((link, index) => (
             <motion.a
               key={index}
@@ -173,7 +173,7 @@ const Navbar = () => {
                 { href: "oral-treatment", text: "Oral Treatment" },
                 { href: "screening-camp", text: "Screening Camp" },
                 { href: "contact", text: "Contact Us" },
-                { href: "appoinment", text: "Book Appointment" },
+                { href: "appointment", text: "Book Appointment" },
               ].map((link, index) => (
                 <a
                   key={index}
