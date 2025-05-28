@@ -18,7 +18,7 @@ function Steps() {
         </h2>
 
         {/* Subtext */}
-        <p className="text-center text-[7px] md:text-base mb-12 md:mb-28 text-gray-600 px-2 md:px-4">
+        <p className="text-center text-[10px] md:text-base mb-12 md:mb-28 text-gray-600 px-2 md:px-4">
           Backed by research, our three-step program ensures a{" "}
           <strong className="text-[#2987D7]">82% success rate</strong> than
           quitting cold turkey. <br className="hidden md:block" />A dedicated quit coach and tobacco
