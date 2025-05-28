@@ -17,7 +17,7 @@ const RealStoriesComponent = () => {
                         A smoker for <strong>30 years</strong>, developed Pre-Cancerous Lesions at 54.
                         Dr. Pawan explains how <strong>PBM Therapy</strong>, and a structured <strong>Smoking Cessation Program</strong>, can help reverse early damage and restore oral health.
                     </p>
-                    <div className="ml-[8%] md:ml-0 flex md:justify-start md:gap-4">
+                    <div className="md:ml-0 flex justify-center md:justify-start md:gap-4">
                         <a href="oral-treatment" className='mx-2 md:mx-0'><button className="bg-[#2987D7] text-white md:px-6 md:py-3 px-2 py-2.5 rounded-lg md:text-base text-[10px] font-semibold">Learn About PBM</button></a>
                         <a href="/appointment" className='mx-2  md:mx-0'><button className="border-2 border-[#2987D7] text-[#2987D7] md:px-6 md:py-2.5 px-2 py-2 rounded-lg md:text-base text-[10px] font-semibold">Talk to an Expert</button></a>
                     </div>
