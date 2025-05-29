@@ -105,7 +105,7 @@ const OralDiseasesGrid = () => {
                 ? setFlippedCardIndex(flippedCardIndex === index ? null : index)
                 : null
             }
-            className="relative w-full h-38 md:h-72 lg:h-80 bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer group perspective-1000 group-hover:p-0 p-4 sm:p-6"
+            className="relative w-full h-42 md:h-72 lg:h-80 bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer group perspective-1000 group-hover:p-0 p-4 sm:p-6"
           >
             {/* Front Side */}
             <div
