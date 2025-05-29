@@ -138,8 +138,8 @@ const QuixPage = () => {
 
     try {
       // Get IP address
-      const ipResponse = await axios.get('https://api.ipify.org?format=json');
-      const ip_address = ipResponse.data.ip;
+      // const ipResponse = await axios.get('https://api.ipify.org?format=json');
+      // const ip_address = ipResponse.data.ip;
 
       // Calculate result only if it's the last question
       const isLastQuestion = currentQn === totalQuestions - 1;
@@ -170,13 +170,13 @@ const QuixPage = () => {
       }
 
       // Save progress after each question
-      await axios.post(`${API_BASE_URL}/api/quizTakers`, {
-        ip_address,
-        score: updatedScore,
-        result: resultType,
-        quiz_id: quizId,
-        answers: updatedAnswers
-      });
+      // await axios.post(`${API_BASE_URL}/api/quizTakers`, {
+      //   ip_address,
+      //   score: updatedScore,
+      //   result: resultType,
+      //   quiz_id: quizId,
+      //   answers: updatedAnswers
+      // });
 
       // Update local state
       setCurrentQn(currentQn + 1);
