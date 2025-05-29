@@ -40,26 +40,26 @@ const QuizResultPage = () => {
     if (isValidEmail && email && !isSubmitting) {
       setIsSubmitting(true);
       try {
-        // const response = await axios.post(
-        //   `${API_BASE_URL}/api/quizTakers/email`,
-        //   {
-        //     email: email,
-        //     quiz_id: quizId,
-        //   }
-        // );
+        const response = await axios.post(
+          `${API_BASE_URL}/api/quizTakers/email`,
+          {
+            email: email,
+            quiz_id: quizId,
+          }
+        );
 
-        // if (response.data.affectedRows > 0 || response.data.affectedRows == 0) {
+        if (response.data.affectedRows > 0 || response.data.affectedRows == 0) {
           setSubmitSuccess(true);
           setEmail("");
           // Hide the input after 2 seconds of success
           setTimeout(() => {
             setShowEmailInput(false);
           }, 2000);
-        // } else {
-        //   setError(
-        //     "No matching quiz found for this email submission. Please try again later."
-        //   );
-        // }
+        } else {
+          setError(
+            "No matching quiz found for this email submission. Please try again later."
+          );
+        }
       } catch (err) {
         setError(err.response?.data?.error || "Failed to submit email");
       } finally {
