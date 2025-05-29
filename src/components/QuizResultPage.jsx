@@ -249,7 +249,7 @@ const QuizResultPage = () => {
                 className="w-full"
               />
               <div
-                className="meter-pointer absolute bottom-3 top-10 md:top-10 left-1/2 origin-bottom transition-transform duration-1000 ease-out rounded-2xl"
+                className="meter-pointer absolute bottom-3 top-[9%] md:top-10 left-1/2 origin-bottom transition-transform duration-1000 ease-out rounded-2xl"
                 style={{
                   transform: `translateX(-50%) rotate(${rotationAngle}deg)`,
                   width: 0,
