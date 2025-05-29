@@ -38,12 +38,12 @@ const WhyOralScreeningMatters = () => {
         </h2>
         <div className="md:space-y-0">
           {steps.map((step, index) => (
-            <div key={index} className="flex items-start gap-2 md:gap-4 h-[12vh] md:h-[20vh]">
+            <div key={index} className="flex items-start gap-2 md:gap-4 h-[10vh] md:h-[20vh]">
               <div className="flex flex-col items-center">
-                <div className="relative flex items-center justify-center h-17 w-17 md:w-25 md:h-25">
-                  <div className="absolute md:w-full md:h-full w-17 h-17 bg-white border border-[#2987D7] rounded-full"></div>
-                  <div className="absolute md:w-20 md:h-20 w-13 h-13 bg-[#9BC7E4] rounded-full"></div>
-                  <div className="flex items-center justify-center md:w-15 md:h-15 w-10 h-10 bg-[#2987D7] text-white font-bold md:text-3xl rounded-full z-10">
+                <div className="relative flex items-center justify-center h-15 w-18 md:w-25 md:h-25">
+                  <div className="absolute md:w-full md:h-full w-15 h-15 bg-white border border-[#2987D7] rounded-full"></div>
+                  <div className="absolute md:w-20 md:h-20 w-12 h-12 bg-[#9BC7E4] rounded-full"></div>
+                  <div className="flex items-center justify-center md:w-15 md:h-15 w-8 h-8 bg-[#2987D7] text-white font-bold md:text-3xl rounded-full z-10">
                     {step.number}
                   </div>
                 </div>

@@ -51,18 +51,18 @@ const WhyUsSection = () => {
 
         {/* ✅ Mobile View */}
         {isMobile ? (
-          <div className="grid grid-cols-2 gap-2 max-w-4xl mx-auto px-2">
+          <div className="grid grid-cols-2 gap-2 max-w-4xl mx-auto">
         {features.map((item, index) => (
           <div
             key={index}
             className="flex bg-white rounded-md shadow-sm overflow-hidden"
           >
-            <div className="bg-[#A2DAFF] flex items-center justify-center py-3 px-3 w-20">
-              <img src={item.icon} alt="" className={`${index === 3 || 2 ? 'h-8' : 'h-8'}`}
+            <div className="bg-[#A2DAFF] flex items-center justify-center py-1 min-w-13">
+              <img src={item.icon} alt="" className="h-8"
  />
             </div>
-            <div className="flex flex-col justify-center px-4 py-0 text-left">
-              <h3 className="text-[11px] font-bold text-black">{item.title}</h3>
+            <div className="flex flex-col justify-center px-4 py-2 text-left">
+              <h3 className="text-[9px] font-bold text-black leading-3 mb-1">{item.title}</h3>
               <p className="text-[7px] text-gray-600">{item.desc}</p>
             </div>
           </div>

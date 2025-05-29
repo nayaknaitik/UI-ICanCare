@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const PhotoMedicineBanner = () => {
   return (
     <div
-      className="w-full bg-[#DAF0FF] md:py-12 px-8 flex flex-row md:flex-row items-center font-[poppins] mt-24"
+      className="w-full bg-[#DAF0FF] md:py-12 px-8 flex flex-row md:flex-row items-center font-[poppins] mt-12 md:mt-24"
     >
       <div className="w-full max-w-7xl mx-auto flex flex-row md:flex-row items-center justify-between gap-8">
         {/* Text Section */}

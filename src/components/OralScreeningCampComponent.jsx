@@ -9,7 +9,7 @@ const OralScreeningCampComponent = () => {
   return (
     <div
       id="know"
-      className="flex flex-row items-center bg-white rounded-xl overflow-hidden justify-center md:mt-16 w-full max-w-6xl mx-auto my-8 font-[poppins] "
+      className="flex flex-row items-center bg-white rounded-xl overflow-hidden justify-center md:mt-16 w-full max-w-6xl mx-auto my-2 font-[poppins] "
     >
       {/* Image Section */}
       <div className="md:w-1/3 md:ml-0 ml-4 w-46 md:mt-0">

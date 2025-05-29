@@ -11,18 +11,18 @@ const CampEligibilityComponent = () => {
   ];
 
   return (
-    <div className="w-full max-w-6xl mx-auto md:py-12 font-[poppins] md:mt-12 flex gap-4 flex-row px-2 md:flex-row items-center">
+    <div className="w-full max-w-6xl mx-auto md:py-12 font-[poppins] mt-6 md:mt-12 flex gap-4 flex-row px-2 md:flex-row items-center">
       {/* Left Image Section */}
       <div className="w-full md:w-1/2 rounded-2xl overflow-hidden">
         <img
           src={photo}
           alt="Family"
-          className=" ml-3 md:rounded-2xl md:ml-16 md:w-auto mt-13 h-55 md:h-130 object-cover"
+          className=" ml-3 md:rounded-2xl md:ml-16 md:w-auto md:mt-12 h-55 md:h-130 object-cover"
         />
       </div>
 
       {/* Right Content Section */}
-      <div className="w-full md:w-1/2 mt-16">
+      <div className="w-full md:w-1/2 md:mt-16">
         <h2 className="text-[14px] md:text-4xl font-bold mb-6 tracking-tighter">
           <span className="text-[#2987D7]">Who</span> Should Attend This Camp?
         </h2>

@@ -72,7 +72,7 @@ const OralDiseasesGrid = () => {
   const [flippedCardIndex, setFlippedCardIndex] = useState(null);
 
   return (
-    <div id="know" className="max-w-7xl mx-auto font-[poppins] mt-16 my-auto">
+    <div id="know" className="max-w-7xl mx-auto font-[poppins] md:mt-16 my-auto">
       <div className="text-center py-12">
         <h1 className="text-2xl md:text-5xl font-bold text-black md:mb-4 tracking-tighter">
           Tobacco-Induced Oral Diseases

@@ -15,7 +15,7 @@ const EarlyTreatmentCostComponent = () => {
       <div className="flex flex-col md:flex-row justify-center items-start gap-6 mt-4 md:mt-12">
         {/* Left Table */}
         <div className="w-full md:w-1/2">
-          <h3 className="font-semibold mb-2 text-[10px] md:text-xl">
+          <h3 className="font-semibold mb-2 text-[14px] md:text-xl">
             PreCancer Detection and <br /> Innovative Treatment/Patient
           </h3>
           <table className="w-full border-collapse text-white text-left text-sm md:text-base">
@@ -55,7 +55,7 @@ const EarlyTreatmentCostComponent = () => {
 
         {/* Right Table */}
         <div className="w-full md:w-1/2">
-          <h3 className="font-semibold mb-2 text-[10px] md:text-xl">
+          <h3 className="font-semibold mb-2 text-[14px] md:text-xl">
             Traditional Cancer Treatment/ <br /> Patient
           </h3>
           <table className="w-full h-74 border border-black border-collapse text-left text-sm md:text-base">
@@ -92,8 +92,8 @@ const EarlyTreatmentCostComponent = () => {
       </div>
 
       {/* Footer Note */}
-      <p className="mt-10 text-xl md:text-2xl font-semibold text-black">
-        Cost of Early Treatment can be up to <span className="text-[#2987D7] font-extrabold text-4xl">15x</span> Cheaper!
+      <p className="mt-10 text-[14px] md:text-2xl font-semibold text-black">
+        Cost of Early Treatment can be up to <span className="text-[#2987D7] font-extrabold text-[22px] md:text-4xl">15x</span> Cheaper!
       </p>
     </div>
   );

@@ -3,7 +3,7 @@ import tick from "../assets/tickdark.svg";
 
 const OralScreeningInclusions = () => {
   return (
-    <div className="w-full max-w-6xl mx-auto md:py-12 py-8 md:mt-20 px-4 font-[poppins]">
+    <div className="w-full max-w-6xl mx-auto md:py-12 py-6 md:mt-20 px-4 font-[poppins]">
       <h2 className="text-[14px] md:text-4xl font-bold text-center mb-2">
         What’s Included in the{" "}
         <span className="text-[#2987D7]">Free Oral Screening</span>?

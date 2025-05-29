@@ -57,12 +57,12 @@ const FAQPBM = () => {
     >
       <div className="max-w-5xl mx-auto text-center">
         {/* Top Tag */}
-        <div className="inline-block bg-white border border-[#76ADFF] text-[#2987D7] font-semibold py-2 px-8 rounded-full shadow-md mb-4 text-sm">
+        <div className="inline-block md:text-base text-[12px] bg-white border border-[#76ADFF] text-[#2987D7] font-semibold py-2 px-8 rounded-full shadow-md mb-4 text-sm">
           FAQ
         </div>
 
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-[#111827]">
+        <h2 className="text-[14px] sm:text-4xl font-bold mb-10 text-[#111827]">
           Frequently Asked Questions
         </h2>
 
@@ -85,7 +85,7 @@ const FAQPBM = () => {
                   <span className="absolute left-0 top-0 bottom-0 w-3 bg-[#2987D7]"></span>
 
                   {/* Question Text */}
-                  <span className="pl-4">{faq.question}</span>
+                  <span className="md:text-base text-[12px] pl-4">{faq.question}</span>
 
                   {/* Toggle Icon */}
                   {isOpen ? (
@@ -101,7 +101,7 @@ const FAQPBM = () => {
                     isOpen ? "max-h-40 py-4" : "max-h-0 py-0"
                   }`}
                 >
-                  <p className="text-white/80 text-sm ml-4 leading-relaxed text-left">
+                  <p className="text-white/80 text-[10px] ml-4 leading-relaxed text-left">
                     {faq.answer}
                   </p>
                 </div>

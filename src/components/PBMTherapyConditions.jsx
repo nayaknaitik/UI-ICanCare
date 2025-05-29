@@ -15,7 +15,7 @@ const conditions = [
 
 const PBMTherapyConditions = () => {
   return (
-    <div className="w-full bg-[#DAF0FF] flex items-center justify-center py-6 md:py-16 px-5 md:px-8 mt-12 font-[Poppins]">
+    <div className="w-full bg-[#DAF0FF] flex items-center justify-center py-6 md:py-16 px-5 md:px-8 mt-4 md:mt-12 font-[Poppins]">
       <div className="max-w-5xl mx-auto flex flex-row md:flex-row items-center justify-center md:gap-12">
         {/* Left Content Section */}
         <div className="w-full md:w-1/2">

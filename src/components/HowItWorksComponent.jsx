@@ -25,7 +25,7 @@ const HowItWorksComponent = () => {
           <img 
             src={pbmImage} 
             alt="PBM Treatment Process" 
-            className="w-40 md:w-130 h-auto mt-10 md:mt-0 rounded-md rmd:ounded-2xl"
+            className="w-35 md:w-100 ml-4 h-auto mt-10 md:mt-0 md:ml-30 rounded-md md:ounded-2xl"
           />
         </div>
 

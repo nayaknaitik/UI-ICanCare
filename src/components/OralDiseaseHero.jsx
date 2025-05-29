@@ -37,7 +37,7 @@ const OralDiseaseHero = () => {
       />
 
       {/* Quiz Box */}
-      <div className="w-full flex bg-white shadow-lg rounded-xl p-4 mb-5">
+      <div className="w-full flex bg-white shadow-lg rounded-xl py-2 px-4 border border-gray-300 mb-5">
         <div><h3 className="text-[18px] font-bold text-left text-black">Are You At Risk?</h3>
         <p className="text-[9px] text-left text-gray-600 mt-1 mb-3 mr-3">
           Take This <strong>60-Seconds Quiz</strong> to Check if you have any early signs of oral diseases caused by tobacco.
