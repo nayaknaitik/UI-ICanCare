@@ -13,17 +13,17 @@ const features = [
   {
     icon: Support,
     title: "Support",
-    desc: "24/7 Guidance Via WhatsApp, And Expert-Led Coaching.",
+    desc: "24/7 Guidance Via WhatsApp, And Expert-Led Coaching",
   },
   {
     icon: Sci,
     title: "Scientific",
-    desc: "Evidence Based And Data Driven Methodologies.",
+    desc: "Evidence Based And Data Driven Methodologies",
   },
   {
     icon: Person,
     title: "Personalized",
-    desc: "Every Quit Journey Is Unique, And So Is Your Plan.",
+    desc: "Every Quit Journey Is Unique, And So Is Your Plan",
   },
 ];
 

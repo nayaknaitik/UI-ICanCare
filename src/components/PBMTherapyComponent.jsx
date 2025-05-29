@@ -8,22 +8,22 @@ const features = [
   {
     icon: ShieldIcon,
     title: "Pain-Free & Non-Invasive Care",
-    desc: "Experience relief without drugs, needles, or discomfort."
+    desc: "Experience relief without drugs, needles, or discomfort"
   },
   {
     icon: LightningIcon,
     title: "Rapid & Effective Relief",
-    desc: "Feel the difference instantly with no side effects."
+    desc: "Feel the difference instantly with no side effects"
   },
   {
     icon: SyringeIcon,
     title: "Safe & Gentle Treatment",
-    desc: "No needle pricking, no vibration, and minimal bleeding."
+    desc: "No needle pricking, no vibration, and minimal bleeding"
   },
   {
     icon: CertificateIcon,
     title: "Scientifically Backed & Trusted",
-    desc: "Rely on a therapy proven by science and endorsed by experts."
+    desc: "Rely on a therapy proven by science and endorsed by experts"
   }
 ];
 

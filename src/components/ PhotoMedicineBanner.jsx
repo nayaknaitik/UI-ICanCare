@@ -9,7 +9,7 @@ const PhotoMedicineBanner = () => {
       <div className="w-full max-w-7xl mx-auto flex flex-row md:flex-row items-center justify-between gap-8">
         {/* Text Section */}
         <p className="text-[12px] md:text-3xl md:leading-8 leading-3 font-semibold text-left mt-4 mb-4 md:mb-0 md:flex-1 md:ml-8">
-          <span className="text-[#2987D7] font-semibold">The Good News!</span> All the conditions can be <br />treated  with  <span className="text-[#2987D7] font-bold">Photo-Medicine and Tobacco Cessation.</span>
+          <span className="text-[#2987D7] font-semibold">The Good News!</span> All the conditions can be <br />treated  with  <span className="text-[#2987D7] font-bold">Photo-Medicine and Tobacco Cessation</span>
         </p>
         {/* Button Section */}
         <a

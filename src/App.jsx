@@ -62,6 +62,7 @@ import OralDiseaseSuccessSection from "./components/OralDiseaseSuccessSection.js
 import PaymentPage from "./components/PaymentPage.jsx";
 import PaymentSuccess from "./components/PaymentSuccess.jsx";
 import { useState } from "react";
+import PaymentFailure from "./components/PaymentFailure.jsx";
 
 const HomePage = () => (
   <>
@@ -176,6 +177,7 @@ function App() {
             <Route path="/appointment" element={<AppointmentComponent />} />
             <Route path="/payments" element={<PaymentPage/>} />
             <Route path="/payment-success" element={<PaymentSuccess/>} />
+            <Route path="/payment-failure" element={<PaymentFailure/>} />
 
 
             {/* Quiz Routes */}

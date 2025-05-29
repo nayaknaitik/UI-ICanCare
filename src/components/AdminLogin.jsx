@@ -1,21 +1,35 @@
-import React, { useState } from 'react';
+import React, { use, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Logo from "../assets/icancareLogo.svg";
+import axios from 'axios';
 const AdminLogin = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
+  const [errorMsg, setErrorMsg] = useState('');
+ 
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-   
-    if (username === 'admin' && password === '1234') {
-      localStorage.setItem('adminAuthenticated', 'true');
-      navigate('/admin/dashboard');
-    } else {
-      setError('Invalid credentials');
+   console.log(username)
+     try {
+      const res = await axios.post('http://localhost:3000/api/admin/login', {
+        username,
+        password,
+      });
+      
+
+      if (res.status === 200 && res.data.message === 'Login successful') {
+        navigate('/admin/dashboard');
+        localStorage.setItem('adminAuthenticated', 'true');
+
+      }
+    } catch (error) {
+      const msg = error.response?.data?.error || 'Login failed. Please try again.';
+      setErrorMsg(msg);
     }
+
   };
 
   return (
