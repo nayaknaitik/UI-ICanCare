@@ -3,7 +3,7 @@
   "name": "ADDICTION TEST",
   "title": "Test for Smokers",
   "isMultiSection": false,
-  "scoreTotal": 10,
+  "scoreTotal": 11,
   "sections": [
     {
       "name": "sec-1",
@@ -62,7 +62,7 @@
     {
       "minScore": 0,
       "maxScore": 4,
-      "title": "MIld Addiction",
+      "title": "Mild Addiction",
       "description": "You have a mild nicotine addiction. You may be able to quit with behavioral strategies, self-help tools, and counseling.",
       "cta": "Join Our Behavioral Counseling Program (Mild Quit Plan)"
     },

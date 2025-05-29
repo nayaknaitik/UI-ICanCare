@@ -201,11 +201,11 @@ const QuizResultPage = () => {
     }
     console.log(resultType);
     // For all other tests
-    if (resultType === "Mild Dependence" || resultType === "Low" || resultType === "Low Risk" || resultType === "Mild Risk") {
+    if (resultType === "Mild Dependence" || resultType === "Low" || resultType === "Low Risk" || resultType === "Mild Risk" || resultType === "Mild Addiction") {
       return -90; // Left side position
-    } else if (resultType === "Moderate Dependence" || resultType === "Moderate" || resultType === "Moderate Risk" || resultType === "Moderate Risk") {
+    } else if (resultType === "Moderate Dependence" || resultType === "Moderate" || resultType === "Moderate Risk" || resultType === "Moderate Risk" || resultType === "Moderate Addiction") {
       return 0; // Center position
-    } else if (resultType === "Severe Dependence" || resultType === "High" || resultType === "High Risk" || resultType === "Severe Risk") {
+    } else if (resultType === "Severe Dependence" || resultType === "High" || resultType === "High Risk" || resultType === "Severe Risk" || resultType === "Severe Addiction") {
       return 90; // Right side position
     }
 
